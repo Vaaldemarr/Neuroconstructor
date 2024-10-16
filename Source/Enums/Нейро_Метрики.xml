@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="909f58a9-cbd9-43ed-876a-cc50c469637a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Метрики" category="Ref">
+				<xr:TypeId>474c7ab2-7ddb-4f9f-bc52-0c3db5ed58be</xr:TypeId>
+				<xr:ValueId>afa570e4-070e-47a6-9a8d-725eed71b602</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Метрики" category="Manager">
+				<xr:TypeId>15101d59-60cb-431a-972d-29f3b8713cbd</xr:TypeId>
+				<xr:ValueId>139b07c1-e6f1-4f76-bbea-3bdfb787e241</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Метрики" category="List">
+				<xr:TypeId>2e02196e-b59e-4bb1-b167-5693c40586e8</xr:TypeId>
+				<xr:ValueId>01aa54d1-323f-4af0-8a3c-fa0ceba296fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Метрики</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро метрики</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ae671177-20f5-4d66-a95b-c31ba9ad8768">
+				<Properties>
+					<Name>accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0670eaf1-b806-4441-8c08-60f503cbdb24">
+				<Properties>
+					<Name>crossentropy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перекрестная энтропия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="699a2b8d-395c-4f45-bcfe-3aef224434ae">
+				<Properties>
+					<Name>binary_accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двоичная точность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.binary_accuracy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="488ba55a-f3a8-4e86-b520-c5be793dddde">
+				<Properties>
+					<Name>categorical_accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категориальная точность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.categorical_accuracy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2187c6e6-0526-448b-8575-06f4cbc225af">
+				<Properties>
+					<Name>sparse_categorical_accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разреженная категориальная точность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.sparse_categorical_accuracy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fe44c31a-57d4-480d-a49c-47417b38f2ee">
+				<Properties>
+					<Name>top_k_categorical_accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категориальная точность по k-лучших</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.top_k_categorical_accuracy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6c6b4810-ab25-4842-989a-89533160ffc3">
+				<Properties>
+					<Name>sparse_top_k_categorical_accuracy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разреженная категориальная точность по k-лучших</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.sparse_top_k_categorical_accuracy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="431a29b6-ae92-4c93-ab96-2d442f05aec9">
+				<Properties>
+					<Name>cosine_proximity</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Косинусная близость</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.metrics.cosine_proximity</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9bc6cc86-e8ea-46c6-931a-4cdcb2efd0b4">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

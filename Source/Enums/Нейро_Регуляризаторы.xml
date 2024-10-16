@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="9ac4e2f5-e0d3-4860-8158-6d9e127d6db7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Регуляризаторы" category="Ref">
+				<xr:TypeId>afd56490-97a7-424d-9029-046b28df3cf8</xr:TypeId>
+				<xr:ValueId>1ccf9364-d194-4121-9a6c-1981d6db2e09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Регуляризаторы" category="Manager">
+				<xr:TypeId>5fc7135f-a48d-4518-a7ed-99b03ddc5d26</xr:TypeId>
+				<xr:ValueId>c94cdf81-2262-424d-b862-bf2a4e0ec6a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Регуляризаторы" category="List">
+				<xr:TypeId>7074fa47-2e33-401d-876e-510adf84682e</xr:TypeId>
+				<xr:ValueId>d586037c-2c65-4ca0-8115-6feb808dec24</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Регуляризаторы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро регуляризаторы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1b4faf8c-af4b-4a31-8161-d2df553fca2b">
+				<Properties>
+					<Name>l1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>L1</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.regularizers.l1</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2f381e9e-0582-4161-b717-d4af653383fe">
+				<Properties>
+					<Name>l2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>L2</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.regularizers.l2</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="81c83ce0-77b3-4c44-b93a-179ba3a16952">
+				<Properties>
+					<Name>l1_l2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>L1 L2</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.regularizers.l1_l2</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

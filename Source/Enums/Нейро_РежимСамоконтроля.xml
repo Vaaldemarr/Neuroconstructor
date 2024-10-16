@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="975a7d29-57e9-43e3-944b-60a803cd5078">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_РежимСамоконтроля" category="Ref">
+				<xr:TypeId>de3f2623-180f-4519-aab5-02d0c469d997</xr:TypeId>
+				<xr:ValueId>fd31529e-84a5-41f8-82a4-fd71a067ec25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_РежимСамоконтроля" category="Manager">
+				<xr:TypeId>6b8b8acb-aa98-4d98-8119-981d2b44793f</xr:TypeId>
+				<xr:ValueId>27e51c2e-492b-4b77-b5d5-71d1aefef95a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_РежимСамоконтроля" category="List">
+				<xr:TypeId>6f1afe1c-37e9-42b2-afdc-f537bd58154e</xr:TypeId>
+				<xr:ValueId>042d3713-7575-49eb-8839-6e160002eff8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_РежимСамоконтроля</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро режим самоконтроля</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="42f2b2a9-e690-4d27-a762-2d02e0a0888f">
+				<Properties>
+					<Name>min</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уменьшение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>min</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fb1452d3-3c18-44fc-a3f8-75dd2ea45413">
+				<Properties>
+					<Name>max</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Увеличение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>max</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b1f73f4b-a304-41fb-85b1-a68eceba0a71">
+				<Properties>
+					<Name>auto</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Авто</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>auto</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСоздатьСправочники" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СоздатьСправочники</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьСправочникиРасширеннаяПодсказка" id="50"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="47">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="44">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь к файлам описаний</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="46"/>
+				</LabelDecoration>
+				<InputField name="ПутьКФайламОписанийАнг" id="1">
+					<DataPath>ПутьКФайламОписанийАнг</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>анг</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="ПутьКФайламОписанийАнгКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ПутьКФайламОписанийАнгРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="StartChoice">ПутьКФайламОписанийНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПутьКФайламОписанийРус" id="41">
+					<DataPath>ПутьКФайламОписанийРус</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>рус</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="ПутьКФайламОписанийРусКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПутьКФайламОписанийРусРасширеннаяПодсказка" id="43"/>
+					<Events>
+						<Event name="StartChoice">ПутьКФайламОписанийРусНачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаЗаполнения" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаЗаполнения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаЗаполненияКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ТаблицаЗаполненияКоманднаяПанель" id="6">
+				<ChildItems>
+					<Button name="ТаблицаЗаполненияЗаполнитьТаблицуЗначениямиПоУмолчанию" id="51">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьТаблицуЗначениямиПоУмолчанию</CommandName>
+						<ExtendedTooltip name="ТаблицаЗаполненияЗаполнитьТаблицуЗначениямиПоУмолчаниюРасширеннаяПодсказка" id="52"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаЗаполненияРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ТаблицаЗаполненияСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>ТаблицаЗаполнения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЗаполненияСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТаблицаЗаполненияСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаЗаполненияСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>ТаблицаЗаполнения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЗаполненияСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТаблицаЗаполненияСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаЗаполненияУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>ТаблицаЗаполнения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЗаполненияУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТаблицаЗаполненияУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТаблицаЗаполненияИмяГруппы" id="17">
+					<DataPath>ТаблицаЗаполнения.ИмяГруппы</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияИмяГруппыКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияИмяГруппыРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияВидСлоя" id="20">
+					<DataPath>ТаблицаЗаполнения.ВидСлоя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияВидСлояКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияВидСлояРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияТипСлоя" id="23">
+					<DataPath>ТаблицаЗаполнения.ТипСлоя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияТипСлояКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияТипСлояРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияНаименованиеСправочника" id="38">
+					<DataPath>ТаблицаЗаполнения.НаименованиеСправочника</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияНаименованиеСправочникаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияНаименованиеСправочникаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияИдОбъекта" id="26">
+					<DataPath>ТаблицаЗаполнения.ИдОбъекта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияИдОбъектаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияИдОбъектаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияОписаниеСлояАнг" id="29">
+					<DataPath>ТаблицаЗаполнения.ОписаниеСлояАнг</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя файла (Анг)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияОписаниеСлояАнгКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияОписаниеСлояАнгРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияОписаниеСлояРус" id="32">
+					<DataPath>ТаблицаЗаполнения.ОписаниеСлояРус</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя файла (Рус)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияОписаниеСлояРусКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияОписаниеСлояРусРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ТаблицаЗаполненияОписаниеСсылка" id="35">
+					<DataPath>ТаблицаЗаполнения.ОписаниеСсылка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЗаполненияОписаниеСсылкаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТаблицаЗаполненияОписаниеСсылкаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СозданиеСлоев</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПутьКФайламОписанийАнг" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлам описаний анг</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПутьКФайламОписанийАнг</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТаблицаЗаполнения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица заполнения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Save>
+				<Field>ТаблицаЗаполнения</Field>
+			</Save>
+			<Columns>
+				<Column name="ИмяГруппы" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя группы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВидСлоя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид слоя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.Нейро_ВидыСлоев</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ТипСлоя" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип слоя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.Нейро_ТипыСлоев</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИдОбъекта" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ид объекта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОписаниеСлояАнг" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание слоя анг</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОписаниеСлояРус" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание слоя рус</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОписаниеСсылка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НаименованиеСправочника" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование справочника</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПутьКФайламОписанийРус" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлам описаний рус</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПутьКФайламОписанийРус</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьСправочники" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать справочники</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать справочники</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьСправочники</Action>
+		</Command>
+		<Command name="ЗаполнитьТаблицуЗначениямиПоУмолчанию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить таблицу значениями по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить таблицу значениями по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьТаблицуЗначениямиПоУмолчанию</Action>
+		</Command>
+	</Commands>
+</Form>

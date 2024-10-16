@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<CommandsVisibility>
+		<Command name="Catalog.Нейро_Слои.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Нейро_Массивы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Нейро_Функции.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Нейро_ПодключенныеМодели.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Нейро_Генераторы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Нейро_КомпоновкаМодели.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Нейро_Обучение.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.СозданиеСлоев.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Нейро_Идентификаторы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Нейро_Настройки.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.Нейро_Слои.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Нейро_Массивы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Нейро_Функции.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Нейро_ПодключенныеМодели.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Нейро_Генераторы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Нейро_КомпоновкаМодели.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Нейро_Обучение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.СозданиеСлоев.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Нейро_Идентификаторы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Нейро_Настройки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.Нейро_Слои.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Нейро_Массивы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Нейро_Функции.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Нейро_ПодключенныеМодели.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Нейро_Генераторы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Справочники</CommandGroup>
+		</Command>
+		<Command name="Document.Нейро_КомпоновкаМодели.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.Нейро_Обучение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Документы</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.СозданиеСлоев.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Нейро_Идентификаторы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Нейро_Настройки.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.Нейро_Информация">
+			<CommandGroup>CommandGroup.Нейро_Настройки</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.Нейро_Справочники</Group>
+		<Group>CommandGroup.Нейро_Документы</Group>
+		<Group>CommandGroup.Нейро_Настройки</Group>
+	</GroupsOrder>
+</CommandInterface>

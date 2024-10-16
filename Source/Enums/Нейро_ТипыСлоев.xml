@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="39d93838-0437-4768-b81b-6d392c46b291">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_ТипыСлоев" category="Ref">
+				<xr:TypeId>f4c13407-f1b2-4acd-afc3-5a570ebfdde4</xr:TypeId>
+				<xr:ValueId>4f1edf7f-1671-4e2d-82d6-7d2d825300e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_ТипыСлоев" category="Manager">
+				<xr:TypeId>2791187a-3cc4-4294-83e7-af9349a60ed9</xr:TypeId>
+				<xr:ValueId>a9775e1c-e91d-4ce4-94a9-e2ec63eeeda7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_ТипыСлоев" category="List">
+				<xr:TypeId>1f83fa25-1096-4da8-ac3c-0f94276bc1ed</xr:TypeId>
+				<xr:ValueId>fe32d2dd-0946-4ad9-a37e-e61005c69deb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_ТипыСлоев</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро типы слоев</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="771bc688-e1db-45fb-8b65-00e124ae0f17">
+				<Properties>
+					<Name>Dense</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полносвязный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Dense</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ea2effa9-47c2-48ce-bc5a-ab59834d9834">
+				<Properties>
+					<Name>Activation</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Activation</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="da47e0b6-e738-4def-b7f6-c75c13e2aca7">
+				<Properties>
+					<Name>Dropout</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прореживание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Dropout</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2e8182a3-1114-4b93-9993-451c0c3e6d1c">
+				<Properties>
+					<Name>Flatten</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уплощение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Flatten</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="197449c7-47f2-4c35-bb34-22eee0455856">
+				<Properties>
+					<Name>InputLayer</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Входной</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Input</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="29801456-9741-4a37-8b7c-15bec3eb60cc">
+				<Properties>
+					<Name>Reshape</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переформирование</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Reshape</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="95909cf8-0057-4d1d-8ec8-02f12ada2e76">
+				<Properties>
+					<Name>Permute</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перестановка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Permute</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d02c7090-d585-4fc0-bab5-19dd226580f7">
+				<Properties>
+					<Name>RepeatVector</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ретранслятор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.RepeatVector</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8c97d204-d85c-4e6d-b50d-9c722a805ce2">
+				<Properties>
+					<Name>ActivityRegularization</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регуляризация активности</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ActivityRegularization</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cb119036-186b-4171-a283-53b27ad2537c">
+				<Properties>
+					<Name>Masking</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Маскирование</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Masking</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18f108f2-1a92-43e3-88c5-d107dc6404e8">
+				<Properties>
+					<Name>SpatialDropout1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пространственное прореживание 1-мерное</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SpatialDropout1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c582dd61-133e-422c-9b90-dcc1a746cf2c">
+				<Properties>
+					<Name>SpatialDropout2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пространственное прореживание 2-мерное</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SpatialDropout2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2d6ed633-b372-449e-a743-c60c79b1d078">
+				<Properties>
+					<Name>SpatialDropout3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пространственное прореживание 3-мерное</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SpatialDropout3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="675c9f4b-c364-4a02-9331-8caab96f4d72">
+				<Properties>
+					<Name>Add</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сложение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Add</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="778b8f56-b03f-486c-9e77-6d399aa7722f">
+				<Properties>
+					<Name>Subtract</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вычитание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Subtract</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="749e36d6-6383-4fba-a3e8-8d7c966dead1">
+				<Properties>
+					<Name>Multiply</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Умножение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Multiply</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="16ab579e-1ca4-43e8-8613-435c5cb26915">
+				<Properties>
+					<Name>Average</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среднее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Average</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d25724f-e024-4593-8b18-ef7fdff9dcee">
+				<Properties>
+					<Name>Maximum</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Максимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Maximum</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2044d5e-b3e3-4050-99b1-39cd15499068">
+				<Properties>
+					<Name>Minimum</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Минимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Minimum</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b80a90e9-c0a5-4621-8399-d74e0fb99f0b">
+				<Properties>
+					<Name>Concatenate</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конкатенация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Concatenate</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a108a19c-0b8b-404e-bccd-95c9aaac529a">
+				<Properties>
+					<Name>Dot</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скалярное произведение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Dot</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0222eb6c-2d82-4a4c-81a6-2b486f4dd8ca">
+				<Properties>
+					<Name>Conv1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверточный 1-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Conv1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="71b3be13-897b-4c41-a629-35a8cf396b63">
+				<Properties>
+					<Name>Conv2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверточный 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Conv2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b771b643-d139-4f7c-a34b-69ca2b04cdd7">
+				<Properties>
+					<Name>SeparableConv1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделяемый сверточный 1-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SeparableConv1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="449394f6-a9a6-40cc-918d-90dc3d86335a">
+				<Properties>
+					<Name>SeparableConv2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделяемый сверточный 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SeparableConv2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c2e4e16b-6f3a-419a-a776-3765d1f636bd">
+				<Properties>
+					<Name>DepthwiseConv2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Глубокий сверточный 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.DepthwiseConv2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5a4cbc7-a051-4bab-ab7e-97d1470a232a">
+				<Properties>
+					<Name>Conv2DTranspose</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Транспонированный сверточный 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Conv2DTranspose</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bc441b55-21bd-4453-b61b-fc011120d673">
+				<Properties>
+					<Name>Conv3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверточный 3-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Conv3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8ace5ff4-4571-42ec-9c94-8487c56a65e3">
+				<Properties>
+					<Name>Conv3DTranspose</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Транспонированный сверточный 3-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Conv3DTranspose</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ebb85d7c-7dea-48d3-8e6d-d411678a71bb">
+				<Properties>
+					<Name>Cropping1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обрезка 1-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Cropping1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6e8ab38e-3d83-4d09-9a90-16f1ed7d41b1">
+				<Properties>
+					<Name>Cropping2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обрезка 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Cropping2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="371f7db9-5a86-4ed2-9754-95ba582a7a3f">
+				<Properties>
+					<Name>Cropping3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обрезка 3-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Cropping3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0e1b78cd-c56d-4ad4-88a4-7ca1c0f010fa">
+				<Properties>
+					<Name>UpSampling1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Повышающая дискретизация 1-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.UpSampling1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="074c07c5-a68c-4c51-937b-8b63fedaae61">
+				<Properties>
+					<Name>UpSampling2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Повышающая дискретизация 2-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.UpSampling2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f8460814-c895-4e93-884a-9b479553dc16">
+				<Properties>
+					<Name>UpSampling3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Повышающая дискретизация 3-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.UpSampling3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24138054-587b-4170-a705-d1b996a5eed6">
+				<Properties>
+					<Name>ZeroPadding1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение нулями 1-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ZeroPadding1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c01c9dd9-2c4b-4ce2-b130-37a60acc9afb">
+				<Properties>
+					<Name>ZeroPadding2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение нулями 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ZeroPadding2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="41969293-3272-41b5-8585-8b8846572711">
+				<Properties>
+					<Name>ZeroPadding3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение нулями 3-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ZeroPadding3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9aa8e53-3c00-4731-a0d2-0635072de4cf">
+				<Properties>
+					<Name>MaxPooling1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка наибольшего 1-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.MaxPooling1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1a02bf4b-9186-4f0b-84cd-34621f39efbb">
+				<Properties>
+					<Name>MaxPooling2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка наибольшего 2-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.MaxPooling2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e9e62e63-aea8-4dd9-bf2f-92812da23d69">
+				<Properties>
+					<Name>MaxPooling3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка наибольшего 3-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.MaxPooling3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aa7af7d6-c537-4eca-9b35-30a5f69777ef">
+				<Properties>
+					<Name>AveragePooling1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка среднего 1-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.AveragePooling1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3e1a7675-69f2-4627-be82-f9e4b014d896">
+				<Properties>
+					<Name>AveragePooling2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка среднего 2-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.AveragePooling2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bf0381af-cea2-4e0f-a3a0-4410f6d374bd">
+				<Properties>
+					<Name>AveragePooling3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвыборка среднего 3-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.AveragePooling3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="feca11e5-2df3-41de-8014-6b378ebc6058">
+				<Properties>
+					<Name>GlobalMaxPooling1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка наибольшего 1-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalMaxPooling1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="900367a5-360f-4e5d-931c-e5e07d615bb3">
+				<Properties>
+					<Name>GlobalAveragePooling1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка среднего 1-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalAveragePooling1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6412c2ac-c213-4a2f-b231-b51ea4ea1a68">
+				<Properties>
+					<Name>GlobalMaxPooling2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка наибольшего 2-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalMaxPooling2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6ae86b4f-57c7-4f45-bef1-d95814317d57">
+				<Properties>
+					<Name>GlobalAveragePooling2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка среднего 2-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalAveragePooling2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="83595b44-0f49-4fa6-bdc4-2a492703ceb2">
+				<Properties>
+					<Name>GlobalMaxPooling3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка наибольшего 3-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalMaxPooling3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e9d71bc9-e89a-4b41-ad43-bba45afda9f4">
+				<Properties>
+					<Name>GlobalAveragePooling3D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая подвыборка среднего 3-мерная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GlobalAveragePooling3D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9e9f588-4727-45ce-92f4-e69e7c198197">
+				<Properties>
+					<Name>LocallyConnected1D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Локально-связанный 1-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.LocallyConnected1D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="021d540b-462d-4502-b53e-5c8db57d095a">
+				<Properties>
+					<Name>LocallyConnected2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Локально-связанный 2-мерный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.LocallyConnected2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="494a0b83-9ae8-4a04-95f6-70bcb5a7c889">
+				<Properties>
+					<Name>SimpleRNN</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Простой рекуррентный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SimpleRNN</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="12ae5544-8e1f-4429-ae11-a3660e65c4cb">
+				<Properties>
+					<Name>GRU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вентильный рекуррентный блок</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GRU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9db32c84-3aea-4ee3-b389-bfff8a1b69a8">
+				<Properties>
+					<Name>LSTM</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Долгой краткосрочной памяти</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.LSTM</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4959ee6b-88a3-4d4c-ba69-ba10121a4dd8">
+				<Properties>
+					<Name>ConvLSTM2D</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверточный долгой краткосрочной памяти</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ConvLSTM2D</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="db8bc883-08ce-498c-98d1-77ae1e47cea0">
+				<Properties>
+					<Name>ConvLSTM2DCell</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверточный долгой краткосрочной памяти ячейкой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ConvLSTM2DCell</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7af26104-4310-4446-a160-51f628d97d0e">
+				<Properties>
+					<Name>SimpleRNNCell</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Простой рекуррентный ячейкой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.SimpleRNNCell</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1225a9a1-dd07-490a-9a9e-52d0920cef66">
+				<Properties>
+					<Name>GRUCell</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вентильный рекуррентный блок ячейкой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GRUCell</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="76aad5af-5feb-4333-96b8-4fde8eaa8614">
+				<Properties>
+					<Name>LSTMCell</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Долгой краткосрочной памяти ячейкой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.LSTMCell</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8c476ed-9c19-4bd8-a6be-d46199bcd827">
+				<Properties>
+					<Name>CuDNNGRU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вентильный рекуррентный блок CuDNN</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.CuDNNGRU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bda6f5ef-f2e2-44c9-ba67-86b06d63a78e">
+				<Properties>
+					<Name>CuDNNLSTM</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Долгой краткосрочной памяти CuDNN</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.CuDNNLSTM</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c4a7841b-8027-4c65-a8e8-53f2a07b6c6f">
+				<Properties>
+					<Name>Embedding</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Погружение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Embedding</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b065f1ee-1e9b-44fa-a752-5ad75afc41be">
+				<Properties>
+					<Name>LeakyReLU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линейный выпрямитель с утечкой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.LeakyReLU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f820ac0b-4155-48bc-8706-b92b966983ac">
+				<Properties>
+					<Name>PReLU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметрический линейный выпрямитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.PReLU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc4aed02-00b6-4008-91c0-e5c46955583e">
+				<Properties>
+					<Name>ELU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспоненциальная линейная единица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ELU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6062b2b-7877-4a27-a013-3c59087fb642">
+				<Properties>
+					<Name>ThresholdedReLU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линейный выпрямитель с порогом</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ThresholdedReLU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3d89a763-a230-4277-8cd9-cc01859855ed">
+				<Properties>
+					<Name>Softmax</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мягкий максимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Softmax</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f0181c16-d2a3-46d9-8eda-a0e7769c823a">
+				<Properties>
+					<Name>ReLU</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линейный выпрямитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.ReLU</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2d2c515a-e50e-447a-b596-0db2274981d3">
+				<Properties>
+					<Name>BatchNormalization</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пакетная нормализация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.BatchNormalization</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="934ec7db-bfa8-4284-b83b-e4eb7e96df4c">
+				<Properties>
+					<Name>GaussianNoise</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гауссовский шум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GaussianNoise</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="46113676-f7be-427b-a198-2f60bb90112a">
+				<Properties>
+					<Name>GaussianDropout</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гауссовский отсев</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.GaussianDropout</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="807b2353-b83b-473a-a589-08ac516dd25b">
+				<Properties>
+					<Name>AlphaDropout</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Альфа прореживание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.AlphaDropout</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="204e1c71-6ec2-46f3-a9de-40f78a7bc65b">
+				<Properties>
+					<Name>TimeDistributed</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распределенный во времени</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.TimeDistributed</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba501413-428f-4a3c-902d-2c71915e440e">
+				<Properties>
+					<Name>Bidirectional</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двунаправленный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.layers.Bidirectional</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

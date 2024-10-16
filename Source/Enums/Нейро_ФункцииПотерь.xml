@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="ab44ca97-4acd-47f3-be54-c2888df53a86">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_ФункцииПотерь" category="Ref">
+				<xr:TypeId>73bff473-e4b3-4390-832c-30b7f588d9c1</xr:TypeId>
+				<xr:ValueId>2cc6bc95-c4b7-4472-b3bb-624978eedf95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_ФункцииПотерь" category="Manager">
+				<xr:TypeId>306c8bfb-6c11-4498-a60f-6756c49a2f7a</xr:TypeId>
+				<xr:ValueId>7a5e1672-ee53-4736-b5f3-5222ac6c1bab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_ФункцииПотерь" category="List">
+				<xr:TypeId>53b3892f-9d1d-44e3-bc24-1edacd380202</xr:TypeId>
+				<xr:ValueId>242e2440-74e6-4431-98fc-cb4c4334946a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_ФункцииПотерь</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро функции потерь</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="40d8f4eb-6292-4a50-99ff-01fd6e72e5d9">
+				<Properties>
+					<Name>mean_squared_error</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среднеквадратичная ошибка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.mean_squared_error</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c146a39d-b3e1-4d6a-8ba0-77a0b8e315c8">
+				<Properties>
+					<Name>mean_absolute_error</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средняя абсолютная ошибка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.mean_absolute_error</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21ff1659-8f8b-4206-927b-a90b2d834de5">
+				<Properties>
+					<Name>mean_absolute_percentage_error</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средняя абсолютная ошибка в процентах</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.mean_absolute_percentage_error</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9b2f20eb-3a44-462e-b4b6-2ac5b9e23051">
+				<Properties>
+					<Name>mean_squared_logarithmic_error</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средняя квадратично-логарифмическая ошибка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.mean_squared_logarithmic_error</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9929dd73-e723-4489-b5e9-a6b8436a2fb8">
+				<Properties>
+					<Name>squared_hinge</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Квадратичная кусочно-линейная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.squared_hinge</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a30aebfa-dfaa-42c6-9c03-1afabce84923">
+				<Properties>
+					<Name>hinge</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кусочно-линейная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.hinge</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8a37fc5-430c-461f-9d20-de18b6f5b22f">
+				<Properties>
+					<Name>categorical_hinge</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категориальная кусочно-линейная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.categorical_hinge</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="04995a69-d2e0-43d1-9f35-52952bf1d977">
+				<Properties>
+					<Name>logcosh</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Логарифм гиперболического косинуса</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.logcosh</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c022da72-2275-4a06-8735-ef20ad557d40">
+				<Properties>
+					<Name>categorical_crossentropy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категориальная перекрестная энтропия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.categorical_crossentropy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fb499999-07c2-4426-9e7d-56f55a13d479">
+				<Properties>
+					<Name>sparse_categorical_crossentropy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разреженная категориальная перекрестная энтропия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.sparse_categorical_crossentropy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9ce64315-3281-4075-9dbc-3201c748a019">
+				<Properties>
+					<Name>binary_crossentropy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двоичная перекрестная энтропия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.binary_crossentropy</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e90f56a7-57d3-43fd-8c77-f0329537416b">
+				<Properties>
+					<Name>kullback_leibler_divergence</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расстояние Кульбака-Лейблера</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.kullback_leibler_divergence</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c5d7933d-fe26-4280-b82b-9a9ab8e91f23">
+				<Properties>
+					<Name>poisson</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пуассон</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.poisson</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a626cc5-b996-4c02-b7ee-bc319c543e66">
+				<Properties>
+					<Name>cosine_proximity</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Косинусная близость</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.cosine_proximity</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e4ec2abe-7bef-400e-9fbe-36199d387c7f">
+				<Properties>
+					<Name>Huber</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Хубер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.losses.Huber</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bded9f53-b295-4a90-82e2-8f6b90698086">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

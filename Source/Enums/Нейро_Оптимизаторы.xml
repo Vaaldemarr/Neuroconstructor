@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="da98b9f8-d413-44fa-a145-ffb792180e39">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Оптимизаторы" category="Ref">
+				<xr:TypeId>2c416f0f-2d53-4aad-9e43-8e01e36d1cae</xr:TypeId>
+				<xr:ValueId>7777af9e-d5a2-4e70-b633-6c43ecceadee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Оптимизаторы" category="Manager">
+				<xr:TypeId>bcc4af41-a9c7-45c0-8066-7f3d9d70c190</xr:TypeId>
+				<xr:ValueId>0ef1b9aa-a75d-4838-8d60-35a451c48695</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Оптимизаторы" category="List">
+				<xr:TypeId>f510e6ce-d9e6-4fc7-9bdd-0c4f58395e65</xr:TypeId>
+				<xr:ValueId>9cc2faa9-b16f-48b4-b534-dc4bb33d4161</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Оптимизаторы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро оптимизаторы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="35a4a088-a3da-49c8-bdae-bc77d7932eb5">
+				<Properties>
+					<Name>SGD</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стохастический градиентный спуск</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.SGD</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18e8fb1d-cab2-4c59-9f5c-707ff9bafcb1">
+				<Properties>
+					<Name>RMSprop</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Корень среднеквадратичного распространения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.RMSprop</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="98d7e1e0-4564-4367-8414-b4d4509c5c90">
+				<Properties>
+					<Name>Adagrad</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивный градиент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Adagrad</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="137e4b7d-3157-497e-b4b2-e48cf46fac3c">
+				<Properties>
+					<Name>Adadelta</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивная скорость обучения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Adadelta</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bd70f956-e580-4ca4-b9da-8d9b1568e33f">
+				<Properties>
+					<Name>Adam</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивная оценка момента</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Adam</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="62fb77e6-c1aa-475d-9641-96cd648033e8">
+				<Properties>
+					<Name>Adamax</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивный момент по бесконечности</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Adamax</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f01204c7-bf5e-4c50-ad04-dde07bb1437d">
+				<Properties>
+					<Name>Nadam</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивный момент с импульсом Нестерова</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Nadam</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0f95b826-f76f-41ec-87ee-439391e51469">
+				<Properties>
+					<Name>Ftrl</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Следовать за регуляризованным лидером</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.optimizers.Ftrl</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d031d022-48a1-4a74-93dc-2b365b1309d4">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

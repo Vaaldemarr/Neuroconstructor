@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<InformationRegister uuid="54975551-4d4e-4e19-868a-b487d4782819">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Нейро_Настройки" category="Record">
+				<xr:TypeId>33856c38-7092-480b-8f5f-fea1247955d9</xr:TypeId>
+				<xr:ValueId>2e1fb939-8972-4d61-a2fd-0fc196a66e6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Нейро_Настройки" category="Manager">
+				<xr:TypeId>5bed9e9d-02f4-4c5d-866c-dcbf671ec790</xr:TypeId>
+				<xr:ValueId>549bb0f9-b2d4-4471-af3f-f46e449a2a69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Нейро_Настройки" category="Selection">
+				<xr:TypeId>cb7431e1-caf9-4cf9-8983-09f09a58f8d3</xr:TypeId>
+				<xr:ValueId>7925f14d-c3c0-4486-b57f-b3e6b0abaab3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Нейро_Настройки" category="List">
+				<xr:TypeId>87a3b5cb-77a0-4446-9f02-2fb22b0d9a4d</xr:TypeId>
+				<xr:ValueId>be4d0286-5331-45e9-9353-01f3e1de2cc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Нейро_Настройки" category="RecordSet">
+				<xr:TypeId>04a29544-e83d-43f6-88ee-0fd5e8441c4c</xr:TypeId>
+				<xr:ValueId>6fb93436-9cf4-4c9d-81d5-6c35bd84aa06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Нейро_Настройки" category="RecordKey">
+				<xr:TypeId>4f5c7af0-2325-45cf-b24b-af7201c22a60</xr:TypeId>
+				<xr:ValueId>be5a6bb1-679c-4845-b470-d2fec79e3ff0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Нейро_Настройки" category="RecordManager">
+				<xr:TypeId>6ad6524e-a98e-4730-9acf-10d4ae60d20f</xr:TypeId>
+				<xr:ValueId>bb813474-c8c3-4045-8d2c-f56d126425ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Настройки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро настройки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c609c8f4-8b10-4602-ac00-640995f0ec15">
+				<Properties>
+					<Name>Описание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="5123d6c1-875a-4ff9-92ee-61bccdd92ed8">
+				<Properties>
+					<Name>Имя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f79fa428-75b5-4609-88f2-0de69400dd8d">
+				<Properties>
+					<Name>Значение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.Нейро_Типы</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_VarianceScaling_Режим</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Оптимизаторы</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Ограничители</v8:Type>
+						<v8:Type>cfg:CatalogRef.Нейро_ПодключенныеМодели</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Метрики</v8:Type>
+						<v8:Type>cfg:CatalogRef.Нейро_Массивы</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Padding</v8:Type>
+						<v8:Type>xs:boolean</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_VarianceScaling_Распределение</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_СпособыЗагрузкиЦелей</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ВидыСлоев</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ФункцииПотерь</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_СпособДополнения</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Инициализаторы</v8:Type>
+						<v8:Type>cfg:CatalogRef.Нейро_Функции</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ПорядокКаналов</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ТекстВКатегорииРежим</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ФункцииАктивации</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_СпособВекторизацииТекста</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Регуляризаторы</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_Upscaling</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ТипыNumPy</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ТипыСписков</v8:Type>
+						<v8:Type>cfg:DocumentRef.Нейро_КомпоновкаМодели</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_РежимСамоконтроля</v8:Type>
+						<v8:Type>cfg:CatalogRef.Нейро_Слои</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_СтандартныеМетрики</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_СпособыЗагрузкиОбразцов</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_ТипыСлоев</v8:Type>
+						<v8:Type>cfg:DocumentRef.Нейро_Обучение</v8:Type>
+						<v8:Type>cfg:EnumRef.Нейро_PaddingS</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

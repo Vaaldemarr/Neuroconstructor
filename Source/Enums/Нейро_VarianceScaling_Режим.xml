@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="4d3caad0-b2aa-453a-b493-4c1d129e0c1d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_VarianceScaling_Режим" category="Ref">
+				<xr:TypeId>096c404b-3f83-4c37-a875-373c1a7c4fe2</xr:TypeId>
+				<xr:ValueId>c3fce029-5455-47b6-945d-052cb7c00dcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_VarianceScaling_Режим" category="Manager">
+				<xr:TypeId>1044070b-1465-494c-9b9b-5223b3f3dde6</xr:TypeId>
+				<xr:ValueId>14e77920-4198-4ce9-8f7d-e5f8d2ecf766</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_VarianceScaling_Режим" category="List">
+				<xr:TypeId>903bf3bd-fb27-484c-9d18-9eaac8697e8f</xr:TypeId>
+				<xr:ValueId>7cc63fe7-848a-4403-96da-4ee196a79536</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_VarianceScaling_Режим</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро variance scaling режим</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ed1f5927-65b2-4f6f-98ee-a15a2ceb1ac9">
+				<Properties>
+					<Name>fan_in</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество входных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>fan_in</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4a263694-d402-4c74-b501-289eea9361e8">
+				<Properties>
+					<Name>fan_out</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество выходных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>fan_out</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="638b3c51-1fa7-42b8-864d-b1f5967d847c">
+				<Properties>
+					<Name>fan_avg</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество средних</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>fan_avg</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

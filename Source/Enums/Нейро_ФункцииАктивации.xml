@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="5dbe274d-7b29-4520-a3fe-486654650875">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_ФункцииАктивации" category="Ref">
+				<xr:TypeId>95e18088-15f9-4f2d-92a0-773e437330d7</xr:TypeId>
+				<xr:ValueId>697abac4-f8a2-40cf-a885-925ebfa279a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_ФункцииАктивации" category="Manager">
+				<xr:TypeId>4360d3d2-e6e9-49eb-953a-cc552ed7afcb</xr:TypeId>
+				<xr:ValueId>919ee1d2-798e-4e9e-bdb6-b5b44a7af433</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_ФункцииАктивации" category="List">
+				<xr:TypeId>a4ea8861-df9a-4928-b2e2-00707d75f2c0</xr:TypeId>
+				<xr:ValueId>a91bdb19-3317-440d-bab7-5481680c25f2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_ФункцииАктивации</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро функции активации</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2b61dec7-e8cc-4aad-bc7d-63b5bb2afbce">
+				<Properties>
+					<Name>softmax</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мягкий максимум</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.softmax</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="45062b90-72f7-4a5d-a785-02897b2f40cc">
+				<Properties>
+					<Name>elu</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспоненциальная линейная единица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.elu</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7940b504-b69e-4c6a-8fd3-97f2103b49b4">
+				<Properties>
+					<Name>selu</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Масштабированная экспоненциальная линейная единица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.selu</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6c8e4421-e459-4eb0-bb9e-151277986ff4">
+				<Properties>
+					<Name>softplus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сглаженный линейный выпрямитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.softplus</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0a24ee71-311d-4027-ae5b-ad25ef4dbb02">
+				<Properties>
+					<Name>softsign</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Softsign</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.softsign</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31902460-831f-4b23-ba3e-36dcf8238a13">
+				<Properties>
+					<Name>relu</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линейный выпрямитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.relu</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="013ff356-a0da-4920-a11d-6b0a20e8acac">
+				<Properties>
+					<Name>tanh</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гиперболический тангенс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.tanh</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31dc2a02-3d04-43ba-8f66-321e3565b37d">
+				<Properties>
+					<Name>sigmoid</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сигмоида</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.sigmoid</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9e21c7e2-db34-4a4e-a70a-4993d09abc4d">
+				<Properties>
+					<Name>hard_sigmoid</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Жесткая сигмоида</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.hard_sigmoid</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="502c563b-3dc1-4426-9546-095e8c7a0642">
+				<Properties>
+					<Name>exponential</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Экспоненциальная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.exponential</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6087c19d-3459-4d09-9dce-a97e47d69cfb">
+				<Properties>
+					<Name>linear</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Линейная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.activations.linear</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="73160af9-3e68-45a2-8931-3a839970777a">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

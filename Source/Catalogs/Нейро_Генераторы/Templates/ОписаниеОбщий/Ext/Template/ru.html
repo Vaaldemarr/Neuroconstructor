@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="__STYLE__"></link></head><body>
+<div class="WordSection1">
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51);">Генератор - это функция-итератор на языке Питон, которая формирует пакеты данных "на лету" по описанному алгоритму. Она вызывается "шагов за эпоху" раз каждую эпоху.<o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; white-space: pre-wrap; word-wrap: break-word; caret-color: rgb(51, 51, 51);" data-fdbcc="#ffffff"><span style="color: rgb(51, 51, 51);">В тексте программы имя функции-генератора и её параметры описывать не нужно, они будут сформированы автоматически, так же, как и отступы слева.<o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; white-space: pre-wrap; word-wrap: break-word; caret-color: rgb(51, 51, 51);" data-fdbcc="#ffffff"><span style="color: rgb(51, 51, 51);">Такая функция начинается инициализацией, затем следует бесконечный цикл со статической переменной-счетчиком, значение которой сохраняется до следующего вызова функции.<o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; white-space: pre-wrap; word-wrap: break-word; caret-color: rgb(51, 51, 51);" data-fdbcc="#ffffff"><span style="color: rgb(51, 51, 51);"> </span></p>
+<p style="margin:0cm;margin-bottom:.0001pt">
+
+<span data-fdnt="8" data-fdff="Arial"></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51);">Пример тела функции генератора для двух входных слоев и одного выходного:<font face="Arial, sans-serif" style="font-size: 10pt;"><o:p></o:p></font></span></p>
+<div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;">
+<div>i = min_index</div>
+<div><span style="color: #c586c0;">while</span> <span style="color: #b5cea8;">1</span>:</div>
+<div>    <span style="color: #c586c0;">if</span> shuffle:</div>
+<div>        rows = np.random.randint(min_index, max_index, <span style="color: #9cdcfe;">size</span>=batch_size)</div>
+<div>    <span style="color: #c586c0;">else</span>:</div>
+<div>        <span style="color: #c586c0;">if</span> i + batch_size &gt;= max_index:</div>
+<div>            i = min_index</div>
+<div>        rows = np.arange(i, <span style="color: #dcdcaa;">min</span>(i + batch_size, max_index))</div>
+<div>        i += <span style="color: #dcdcaa;">len</span>(rows)</div>
+<div>    samples1batch=np.copy(samples1[rows])</div>
+<div>    samples2batch=np.copy(samples2[rows])</div>
+<div>    targets1batch=np.copy(targets1[rows])</div>
+<div>    <span style="color: #c586c0;">yield</span> [samples1batch, samples2batch], targets1batch</div></div>
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+&quot;Courier New&quot;;color:#002060"><br></span></b></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><b>Параметры</b>:</span><o:p></o:p></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"></span></p>
+<table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:none"><tbody><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">min_index</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">индекс
+  первого элемента в массиве данных<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">max_index</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">индекс
+  последнего элемента в массиве данных<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">shuffle</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">перемешивать
+  данные, принимает значение True или False<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">batch_size</span></b><span style="font-size:
+  10.0pt;mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">размер
+  пакета. Обычно длина всех данных равна размеру пакета * шагов за эпоху<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">subset</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">какой
+  в данный момент вызван генератор: значение 'training' - тренировочный и
+  'validation' - проверочный<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">nInputs</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">количество
+  входных слоев<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr><tr><td width="103" valign="top" style="width:77.6pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:
+  &quot;Courier New&quot;;color:#002060">nOutputs</span></b><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+  background:white"><o:p></o:p></span></p>
+  </td>
+  
+<td width="29" valign="top" style="width:21.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">-<o:p></o:p></span></p>
+  </td>
+  
+<td width="1333" valign="top" style="width:999.75pt;padding:0cm 5.4pt 0cm 5.4pt">
+  
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+  mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">количество
+  выходных слоев<span style="background:white"><o:p></o:p></span></span></p>
+  </td>
+ </tr></tbody></table><p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10pt; caret-color: rgb(51, 51, 51); white-space: pre-wrap;"> </span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51);">В данный
+генератор данные не передаются через параметры. Для обращения к данным
+используйте следующие имена переменных:<font face="Arial, sans-serif" style="font-size: 10pt;"><o:p></o:p></font></span></p>
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#333333">·<span style="font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">        
+</span></span><!--[endif]--><span style="font-size:10.0pt;mso-bidi-font-size:
+8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">Для входных слоев литерал </span><b><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Courier New&quot;;color:#002060;background:
+white;mso-ansi-language:EN-US">samples</span></b><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#002060;background:white"> </span><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white">и номер входного слоя (например, </span><b><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:8.0pt;
+font-family:&quot;Courier New&quot;;color:#002060;background:white;mso-ansi-language:
+EN-US">samples</span></b><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:&quot;Courier New&quot;;
+color:#002060;background:white">1</span></b><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white">)<o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0.0001pt;">
+
+</p>
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#333333">·<span style="font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">        
+</span></span><!--[endif]--><span style="font-size:10.0pt;mso-bidi-font-size:
+8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333">Для выходных слоев литерал </span><b><span lang="EN-US" style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Courier New&quot;;color:#002060;background:
+white;mso-ansi-language:EN-US">targets</span></b><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#002060;background:white"> </span><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white">и номер выходного слоя (например, </span><b><span lang="EN-US" style="font-size:10.0pt;mso-bidi-font-size:8.0pt;
+font-family:&quot;Courier New&quot;;color:#002060;background:white;mso-ansi-language:
+EN-US">targets</span></b><b><span style="font-size:10.0pt;mso-bidi-font-size:8.0pt;font-family:&quot;Courier New&quot;;
+color:#002060;background:white">1</span></b><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white">)<o:p></o:p></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10pt; background-color: white;"> </span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); background-color: white;">Из общего генератора вы можете вызывать частные генераторы. Например:<o:p></o:p></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); background-color: white;"></span></p>
+<div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;">
+<div>    <span style="color: #c586c0;">if</span> subset==<span style="color: #ce9178;">'training'</span>:</div>
+<div>        next_batch1=<span style="color: #dcdcaa;">next</span>(train_generator1)</div>
+<div>    <span style="color: #c586c0;">else</span>:</div>
+<div>        next_batch1=<span style="color: #dcdcaa;">next</span>(validation_generator1)</div></div>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><br></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); background-color: white;">Если вы используете в генераторе какие-либо библиотеки,
+добавьте их объявление на закладке «Импорт». Например:</span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="color: rgb(51, 51, 51); background-color: white;"></span></p>
+<div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;"><span style="color: #c586c0;">from</span> sklearn.preprocessing <span style="color: #c586c0;">import</span> StandardScaler</div>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><br></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><br></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><br></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span style="font-size:10.0pt;
+mso-bidi-font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#333333;
+background:white"><br></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><br></p></div>
+
+
+</body></html>

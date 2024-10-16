@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="35">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Родитель" id="7">
+					<DataPath>Объект.Parent</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="ВидСлоя" id="103">
+					<DataPath>Объект.ВидСлоя</DataPath>
+					<ContextMenu name="ВидСлояКонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ВидСлояРасширеннаяПодсказка" id="105"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="37">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<InputField name="ТипСлоя" id="10">
+					<DataPath>Объект.ТипСлоя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="ТипСлояКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ТипСлояРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">ТипСлояПриИзменении</Event>
+						<Event name="StartChoice">ТипСлояНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="39">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаПараметры" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры слоя</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа параметры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПараметрыРасширеннаяПодсказка" id="42"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ИдОбъекта" id="100">
+			<DataPath>Объект.ИдОбъекта</DataPath>
+			<ContextMenu name="ИдОбъектаКонтекстноеМеню" id="101"/>
+			<ExtendedTooltip name="ИдОбъектаРасширеннаяПодсказка" id="102"/>
+		</InputField>
+		<UsualGroup name="Группа4" id="116">
+			<HorizontalStretch>true</HorizontalStretch>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="117"/>
+			<ChildItems>
+				<RadioButtonField name="ЯзыкОписания" id="113">
+					<DataPath>ЯзыкОписания</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показать описание на</v8:content>
+						</v8:item>
+					</Title>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Английском</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">0</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Русском</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">1</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ЯзыкОписанияКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="ЯзыкОписанияРасширеннаяПодсказка" id="115"/>
+					<Events>
+						<Event name="OnChange">ЯзыкОписанияПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+				<InputField name="ОписаниеСсылка" id="118">
+					<DataPath>Объект.ОписаниеСсылка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перейти</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<OpenButton>true</OpenButton>
+					<ContextMenu name="ОписаниеСсылкаКонтекстноеМеню" id="119"/>
+					<ExtendedTooltip name="ОписаниеСсылкаРасширеннаяПодсказка" id="120"/>
+					<Events>
+						<Event name="Opening">ОписаниеСсылкаОткрытие</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<FormattedDocumentField name="Описание" id="106">
+			<DataPath>Описание</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="107">
+				<ChildItems>
+					<ButtonGroup name="ОписаниеКонтекстноеМенюГруппа1" id="123">
+						<ExtendedTooltip name="ОписаниеКонтекстноеМенюГруппа1РасширеннаяПодсказка" id="124"/>
+						<ChildItems>
+							<Button name="ОписаниеКонтекстноеМенюОчиститьОписание" id="121">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ОчиститьОписание</CommandName>
+								<ExtendedTooltip name="ОписаниеКонтекстноеМенюОчиститьОписаниеРасширеннаяПодсказка" id="122"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Button name="ОписаниеКонтекстноеМенюЗагрузитьОписание" id="109">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗагрузитьОписание</CommandName>
+						<ExtendedTooltip name="ОписаниеКонтекстноеМенюЗагрузитьОписаниеРасширеннаяПодсказка" id="110"/>
+					</Button>
+					<Button name="ОписаниеКонтекстноеМенюСохранитьОписание" id="111">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СохранитьОписание</CommandName>
+						<ExtendedTooltip name="ОписаниеКонтекстноеМенюСохранитьОписаниеРасширеннаяПодсказка" id="112"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="108"/>
+			<Events>
+				<Event name="OnChange">ОписаниеПриИзменении</Event>
+			</Events>
+		</FormattedDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Нейро_Слои</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Описание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЯзыкОписания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Язык описания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ЯзыкОписания</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СохранитьОписание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить описание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить описание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьОписание</Action>
+		</Command>
+		<Command name="ЗагрузитьОписание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить описание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить описание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьОписание</Action>
+		</Command>
+		<Command name="ИзменитьГиперссылку" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить гиперссылку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить гиперссылку</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ОчиститьОписание" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить описание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить описание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьОписание</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="c21bd898-4fae-4bf6-bfca-156fa3c2e8de">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Инициализаторы" category="Ref">
+				<xr:TypeId>7cd277dc-8c9b-44dc-8630-624fd7c143d6</xr:TypeId>
+				<xr:ValueId>9ffbd7c5-70dc-44f7-bbcd-f53f9024582b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Инициализаторы" category="Manager">
+				<xr:TypeId>98f17be2-fe7b-4ef9-9b72-95b4a152e0bd</xr:TypeId>
+				<xr:ValueId>f381d177-376c-461f-8ff8-ddd6573c0841</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Инициализаторы" category="List">
+				<xr:TypeId>110fc83e-edc4-47a2-a772-e70cd63a2e08</xr:TypeId>
+				<xr:ValueId>ffbee5dc-a6a3-453e-b4d8-00d2e3aed221</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Инициализаторы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро инициализаторы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8b5cc13b-08e2-448b-8396-2bc189860dea">
+				<Properties>
+					<Name>zeros</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нулями</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.Zeros</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4b4c7e12-467e-4cc2-bd67-e82c3dc74051">
+				<Properties>
+					<Name>ones</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единицами</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.Ones</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="336e4d17-8dc9-4696-9d39-d6fa25c58744">
+				<Properties>
+					<Name>constant</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Константой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.Constant</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0474645-4de3-4270-b41b-14a420094580">
+				<Properties>
+					<Name>random_normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Случайная нормальная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.RandomNormal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0727eb0e-602f-45e6-a30d-0b49f8402074">
+				<Properties>
+					<Name>random_uniform</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Случайная унифицированная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.RandomUniform</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f6b99500-d00b-46c1-beb1-da7c38eafcf7">
+				<Properties>
+					<Name>truncated_normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Усеченная нормальная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.TruncatedNormal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24cc77b3-2c81-42ce-8ff2-d6f76469004b">
+				<Properties>
+					<Name>VarianceScaling</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Масштабирование с отклонением</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.VarianceScaling</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fc48c44d-b081-410c-90db-58ea47b23610">
+				<Properties>
+					<Name>orthogonal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ортогональный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.Orthogonal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="585eac38-57b2-4dfc-ba0a-5df68ff5f8eb">
+				<Properties>
+					<Name>Identity</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тождественность</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.Identity</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="401fadff-1aca-4a7d-a170-59f754aa51bb">
+				<Properties>
+					<Name>lecun_uniform</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Унифицированная LeCun</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.lecun_uniform</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aa990cf9-9a23-443c-a85f-894be60f9baa">
+				<Properties>
+					<Name>glorot_normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормальный Glorot</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.glorot_normal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="df7568e8-57de-4b03-bc00-74adecd0742c">
+				<Properties>
+					<Name>glorot_uniform</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Унифицированный Glorot</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.glorot_uniform</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="998d2ea9-7399-46c2-9487-16a27fb4f1d2">
+				<Properties>
+					<Name>he_normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормальный He</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.he_normal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="763f962b-492e-43f5-808a-37f634e03b87">
+				<Properties>
+					<Name>lecun_normal</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормальный LeCun</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.lecun_normal</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d2279251-9431-45be-ada1-451781d5604d">
+				<Properties>
+					<Name>he_uniform</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Унифицированный He</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.initializers.he_uniform</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d71659c-1244-4037-8fe8-953d3e860834">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

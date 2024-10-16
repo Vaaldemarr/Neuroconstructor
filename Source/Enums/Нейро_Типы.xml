@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="d1ca5cf1-0327-4516-9756-f72cdfa46b38">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Типы" category="Ref">
+				<xr:TypeId>05196f40-6aa6-4b8d-82ed-5edad668aed9</xr:TypeId>
+				<xr:ValueId>4046282c-84db-4cbd-a14d-53af30a141ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Типы" category="Manager">
+				<xr:TypeId>50466b23-564e-4999-ac4a-56774f11e3e8</xr:TypeId>
+				<xr:ValueId>c7b9f38c-9dbf-4951-98ad-f3092ce0a4a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Типы" category="List">
+				<xr:TypeId>9c8aff9e-bc86-4300-8cc2-cd7987c82cec</xr:TypeId>
+				<xr:ValueId>d701a6e1-5a51-4cb0-a7a4-b91b3729bf63</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Типы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро типы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1d1ed139-97d0-4996-855b-e11cc949d16c">
+				<Properties>
+					<Name>Строка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ecb63a74-015c-4a05-a1fc-24b22cfff611">
+				<Properties>
+					<Name>Целое</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Целое</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="172a819b-37ee-4f23-9dad-71d18a7cf40a">
+				<Properties>
+					<Name>Вещественное</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вещественное</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="163a8059-02dc-40f4-88b4-9459c631b222">
+				<Properties>
+					<Name>ФункцияАктивации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Функция активации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d5997b63-a167-49cb-ba2e-d36dbb8c709f">
+				<Properties>
+					<Name>Булево</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="58804fd1-31cb-49c6-890b-e01063ebbb80">
+				<Properties>
+					<Name>Инициализатор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инициализатор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="37afea87-7ef7-40df-ac03-5d4d00aab101">
+				<Properties>
+					<Name>Регуляризатор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регуляризатор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="26af8591-1266-4fdb-96d7-7bf2935364dc">
+				<Properties>
+					<Name>Ограничитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ограничитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4e152272-961e-49a2-8e68-944927a238c4">
+				<Properties>
+					<Name>Массив</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Массив</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8630482c-bd23-464b-b05a-a5c62634c33c">
+				<Properties>
+					<Name>ПорядокКаналов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порядок каналов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="23435190-9b54-4bfc-ac30-8cf07f8fb0ff">
+				<Properties>
+					<Name>VarianceScaling_Режим</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Variance scaling режим</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f0f22bd6-f6d1-44ec-a2c4-388472975cbe">
+				<Properties>
+					<Name>VarianceScaling_Распределение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Variance scaling распределение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6dcf2e4f-52b1-4b5b-8ce1-3911ada4159d">
+				<Properties>
+					<Name>ТипNumPy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип NumPy</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="159aa2b2-4871-48f9-8d5c-bbc27ea3c5f1">
+				<Properties>
+					<Name>Функция</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Функция</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7f7befd8-f6d1-4e95-a31f-b42e00d2f5dc">
+				<Properties>
+					<Name>ФункцияПотерь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Функция потерь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="688f958b-3bd1-4a4d-ada3-492a32196dd1">
+				<Properties>
+					<Name>Метрика</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Метрика</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5126195-950f-420b-b732-89a624a9d7ea">
+				<Properties>
+					<Name>Оптимизатор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оптимизатор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ac6cbebc-10c5-46e2-b79a-1dcf44282886">
+				<Properties>
+					<Name>Тензор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тензор Tensorflow</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="be8d8436-1cf5-4b38-8400-08b7aa68a65e">
+				<Properties>
+					<Name>Неопределено</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неопределено</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>None</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2e13152b-3181-45ea-b9ca-75c972040c6a">
+				<Properties>
+					<Name>Заполнение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cc14ccf3-4404-4758-80a3-afe9f925a7a8">
+				<Properties>
+					<Name>ЗаполнениеСокр</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение сокр</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e34f02bc-13c0-43c8-b3c4-b141b6215735">
+				<Properties>
+					<Name>Апскейлинг</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Апскейлинг</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0844e4d-3149-4048-979c-ae98d5f7270e">
+				<Properties>
+					<Name>Слой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Слой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

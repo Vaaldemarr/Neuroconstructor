@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoTitle>false</AutoTitle>
+	<ShowTitle>false</ShowTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОК" id="34">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ОК</CommandName>
+				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="35"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="32">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="33"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="КлассыИзображений" id="1">
+			<Representation>List</Representation>
+			<MultipleChoice>true</MultipleChoice>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>КлассыИзображений</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КлассыИзображенийКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="КлассыИзображенийКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="НазначитьКласс" id="36">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.НазначитьКласс</CommandName>
+						<ExtendedTooltip name="НазначитьКлассРасширеннаяПодсказка" id="37"/>
+					</Button>
+					<Button name="КлассыИзображенийПереместитьВверх" id="20">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.MoveUp</CommandName>
+						<ExtendedTooltip name="КлассыИзображенийПереместитьВверхРасширеннаяПодсказка" id="21"/>
+					</Button>
+					<Button name="КлассыИзображенийПереместитьВниз" id="22">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.MoveDown</CommandName>
+						<ExtendedTooltip name="КлассыИзображенийПереместитьВнизРасширеннаяПодсказка" id="23"/>
+					</Button>
+					<Button name="КлассыИзображенийСортироватьСписокПоВозрастанию" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.SortListAsc</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="КлассыИзображенийСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="25"/>
+					</Button>
+					<Button name="КлассыИзображенийСортироватьСписокПоУбыванию" id="26">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.SortListDesc</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="КлассыИзображенийСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="27"/>
+					</Button>
+					<Button name="КлассыИзображенийВывестиСписок" id="28">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.OutputList</CommandName>
+						<ExtendedTooltip name="КлассыИзображенийВывестиСписокРасширеннаяПодсказка" id="29"/>
+					</Button>
+					<Button name="КлассыИзображенийКопироватьВБуферОбмена" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.КлассыИзображений.StandardCommand.CopyToClipboard</CommandName>
+						<ExtendedTooltip name="КлассыИзображенийКопироватьВБуферОбменаРасширеннаяПодсказка" id="31"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="КлассыИзображенийРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="КлассыИзображенийСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>КлассыИзображений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КлассыИзображенийСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="КлассыИзображенийСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КлассыИзображенийСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>КлассыИзображений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КлассыИзображенийСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="КлассыИзображенийСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КлассыИзображенийУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>КлассыИзображений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КлассыИзображенийУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="КлассыИзображенийУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="КлассыИзображенийНомерКласса" id="14">
+					<DataPath>КлассыИзображений.НомерКласса</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Класс</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="КлассыИзображенийНомерКлассаКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="КлассыИзображенийНомерКлассаРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="КлассыИзображенийИмяПапки" id="17">
+					<DataPath>КлассыИзображений.ИмяПапки</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КлассыИзображенийИмяПапкиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="КлассыИзображенийИмяПапкиРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="КлассыИзображенийПуть" id="38">
+					<DataPath>КлассыИзображений.Путь</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КлассыИзображенийПутьКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КлассыИзображенийПутьРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Нейро_КонвертерДанных</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="КлассыИзображений" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Классы изображений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерКласса" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер класса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяПапки" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя папки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Путь" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>КлассыИзображенийНомерКласса</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">КлассыИзображений.НомерКласса</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>0</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ОК" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОК</Action>
+		</Command>
+		<Command name="НазначитьКласс" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить класс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить класс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НазначитьКласс</Action>
+		</Command>
+	</Commands>
+</Form>

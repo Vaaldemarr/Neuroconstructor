@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="d1bb6876-74b3-4d7c-80c4-2a8a4fcc585f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Upscaling" category="Ref">
+				<xr:TypeId>bf659900-6d20-4d89-be5d-fc83989ecb16</xr:TypeId>
+				<xr:ValueId>c285eb32-a6d3-4055-b8c1-ad9ad9e8a583</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Upscaling" category="Manager">
+				<xr:TypeId>8dac2dae-81cc-4c4f-ace7-38bf8be32755</xr:TypeId>
+				<xr:ValueId>4df58844-83df-4fd4-95ee-7231d4ebb7ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Upscaling" category="List">
+				<xr:TypeId>2ec0c0f2-8468-4cdf-bf53-f21254984ecb</xr:TypeId>
+				<xr:ValueId>bb8faff2-5978-4528-a5dd-11b549827c1d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Upscaling</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро апскейлинг</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="00f58865-a342-4ce3-8366-999b0f5e6ca4">
+				<Properties>
+					<Name>nearest</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ближайший</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>nearest</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9e88c1f-c991-4cec-a806-26105b859267">
+				<Properties>
+					<Name>bilinear</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Билинейный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>bilinear</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

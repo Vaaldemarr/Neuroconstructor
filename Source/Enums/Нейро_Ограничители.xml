@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="191e8b90-fa7d-49ba-b72a-9ae3dd236494">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_Ограничители" category="Ref">
+				<xr:TypeId>3ff093b8-9b80-4c8c-b9f4-4483d3698d23</xr:TypeId>
+				<xr:ValueId>851b61ec-5caa-49c5-b82c-2609e0316da2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_Ограничители" category="Manager">
+				<xr:TypeId>79c37ad5-1c57-4582-9c51-dc7d0decaa32</xr:TypeId>
+				<xr:ValueId>70ecdc9c-cc5b-42fd-8d94-a8bb938b60ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_Ограничители" category="List">
+				<xr:TypeId>b3f2d9d0-9a04-469b-97d7-8c495a5b3b3d</xr:TypeId>
+				<xr:ValueId>3c49ad08-5cf4-43e5-8e0b-d3b0726c6be3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_Ограничители</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро ограничители</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="577961f1-f3ed-45fb-927f-5e9609b71a02">
+				<Properties>
+					<Name>max_norm</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Максимальная норма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.constraints.MaxNorm</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c492e88-7f60-4d2c-b398-f5460262297c">
+				<Properties>
+					<Name>non_neg</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неотрицательный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.constraints.NonNeg</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="03e9c56d-9f3e-4f18-b59e-d5e2bd3904f1">
+				<Properties>
+					<Name>unit_norm</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единичная норма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.constraints.UnitNorm</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="47abb8d9-80a8-457b-8899-e47feb14e752">
+				<Properties>
+					<Name>min_max_norm</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Минимальная и максимальная норма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.constraints.MinMaxNorm</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6ceb2dec-cd2f-41d4-b861-2e87f4d00c46">
+				<Properties>
+					<Name>RadialConstraint</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Radial constraint</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>keras.constraints.RadialConstraint</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

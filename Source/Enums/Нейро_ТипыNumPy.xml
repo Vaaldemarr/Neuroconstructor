@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Enum uuid="54370133-88af-4df0-94a3-0937b7209e4a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Нейро_ТипыNumPy" category="Ref">
+				<xr:TypeId>c7955eca-7005-47c0-9e73-2db07c70f1d0</xr:TypeId>
+				<xr:ValueId>bc945ca6-af37-4d8d-849e-7f39b319f057</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Нейро_ТипыNumPy" category="Manager">
+				<xr:TypeId>1154a568-0e33-423d-8ee2-6c8bcfceaeed</xr:TypeId>
+				<xr:ValueId>81217be6-4a46-44f2-9d72-ef3e32d23e27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Нейро_ТипыNumPy" category="List">
+				<xr:TypeId>606c05ea-154c-44c9-8d92-b5e896496a68</xr:TypeId>
+				<xr:ValueId>8d4c3b66-b712-4b9c-a8c4-411a81a6f4c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Нейро_ТипыNumPy</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нейро типы NumPy</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d543aa61-4f30-47e8-b2c6-752e42e6c12a">
+				<Properties>
+					<Name>int8</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Целое 8 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>int8</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3164b905-4166-4772-a56f-9e79857c1465">
+				<Properties>
+					<Name>int16</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Целое 16 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>int16</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="29f07b25-cd42-4d1f-8c60-ddf35e0a845d">
+				<Properties>
+					<Name>int32</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Целое 32 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>int32</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca223339-4a3a-4ff7-86ff-d5458fa77b17">
+				<Properties>
+					<Name>int64</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Целое 64 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>int64</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af28fa7e-9bae-42aa-889b-cc5a5fc591db">
+				<Properties>
+					<Name>uint8</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Беззнаковое 8 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>uint8</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a4ebad0b-9961-4393-81da-ec5001482739">
+				<Properties>
+					<Name>uint16</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Беззнаковое 16 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>uint16</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ee5352ba-a713-4bec-ab6c-1e5ce7d81214">
+				<Properties>
+					<Name>uint32</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Беззнаковое 32 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>uint32</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="84c2971c-d97c-48f3-a4fa-aa0d53eb0f76">
+				<Properties>
+					<Name>uint64</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Беззнаковое 64 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>uint64</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="14a358d4-5047-4ad2-84d8-b52b78f64edf">
+				<Properties>
+					<Name>float16</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вещественное 16 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>float16</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="75098549-49a4-41df-b746-09a47ccb0c97">
+				<Properties>
+					<Name>float32</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вещественное 32 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>float32</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fb8ef985-06a0-4977-a115-a592a39ace8b">
+				<Properties>
+					<Name>float64</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вещественное 64 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>float64</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bfcb03d4-fdc1-4f48-a72d-e90d60ddbc51">
+				<Properties>
+					<Name>complex64</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комплексное 64 бита</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>complex64</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1d275b8e-3e25-41d9-a639-00e7b70870e2">
+				<Properties>
+					<Name>complex128</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комплексное 128 бит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>complex128</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5bffeb2d-13a4-49f8-b4ad-440403c9775a">
+				<Properties>
+					<Name>bool</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>bool</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d77a52eb-4d22-469c-a573-9c7a690e5730">
+				<Properties>
+					<Name>str</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка юникод</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>str</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="daeed777-460f-471b-b4dd-8ecfe5050617">
+				<Properties>
+					<Name>object</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>object</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d85cadb6-f962-41a7-ae0e-0d7dae61fa8d">
+				<Properties>
+					<Name>string_</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>String</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>string_</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

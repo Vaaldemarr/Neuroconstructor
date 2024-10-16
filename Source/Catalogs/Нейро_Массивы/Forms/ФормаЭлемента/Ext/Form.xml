@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="38">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Родитель" id="35">
+					<DataPath>Объект.Parent</DataPath>
+					<ContextMenu name="РодительКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ТипСписка" id="7">
+			<DataPath>Объект.ТипСписка</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
+			<ContextMenu name="ТипСпискаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТипСпискаРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ТипСпискаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Table name="ЭлементыСписка" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ЭлементыСписка</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЭлементыСпискаКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ЭлементыСпискаКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ЭлементыСпискаРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ЭлементыСпискаСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ЭлементыСписка</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭлементыСпискаСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ЭлементыСпискаСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЭлементыСпискаСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ЭлементыСписка</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭлементыСпискаСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ЭлементыСпискаСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЭлементыСпискаУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ЭлементыСписка</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЭлементыСпискаУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЭлементыСпискаУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="BeforeEditEnd">ЭлементыСпискаПередОкончаниемРедактирования</Event>
+				<Event name="AfterDeleteRow">ЭлементыСпискаПослеУдаления</Event>
+				<Event name="OnActivateCell">ЭлементыСпискаПриАктивизацииЯчейки</Event>
+				<Event name="OnChange">ЭлементыСпискаПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ЭлементыНомерСтроки" id="23">
+					<DataPath>Объект.ЭлементыСписка.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЭлементыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ЭлементыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ЭлементыКлюч" id="26">
+					<DataPath>Объект.ЭлементыСписка.Ключ</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЭлементыКлючКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЭлементыКлючРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ЭлементыТип" id="29">
+					<DataPath>Объект.ЭлементыСписка.Тип</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЭлементыТипКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЭлементыТипРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ЭлементыТипПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ЭлементыЗначение" id="32">
+					<DataPath>Объект.ЭлементыСписка.Значение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ЭлементыЗначениеКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЭлементыЗначениеРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Нейро_Массивы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

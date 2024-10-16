@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+	<ConfigVersions>
+		<Metadata name="Catalog.Нейро_Алгоритмы" id="5c25e6ea-881d-4646-ac71-010616c74b0b" configVersion="6d7be0a6119f977e3ef81f2b6832b5ec8c4643db">
+			<Metadata name="Catalog.Нейро_Алгоритмы.Attribute.ВозвращаетРезультат" id="16bbe2a4-817c-4a79-a7ef-2045ad35ee76"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.Attribute.ТекстПрограммы" id="18017f24-ca57-41e5-adc5-054f7ec9e664"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.TabularSection.Параметры" id="2f5fc87f-82b0-4aa8-9661-5e2f180ca2a2"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.TabularSection.Импорт" id="6419b0a4-6b72-4567-8d53-0de75416ba63"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.Attribute.Описание" id="b2825363-b545-45ff-8e66-3b44deffbace"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.TabularSection.Параметры.Attribute.Описание" id="b74ad87e-79bd-4644-9f5a-570eda89be4d"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.TabularSection.Параметры.Attribute.Имя" id="e24c295b-f673-475a-a324-2b4f25003faf"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.TabularSection.Импорт.Attribute.Идентификатор" id="f72198e7-d421-447f-9a77-86078732fcf5"/>
+			<Metadata name="Catalog.Нейро_Алгоритмы.Attribute.Идентификатор" id="fcf8b851-6b84-4663-bb52-76ba3bc23f50"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Алгоритмы.Form.ФормаЭлемента" id="c89129a3-949b-4fa7-b66b-cae75b1072ff" configVersion="8de27a213924232bf55ef3a0e72edce058b12aa8"/>
+		<Metadata name="Catalog.Нейро_Алгоритмы.Form.ФормаЭлемента.Form" id="c89129a3-949b-4fa7-b66b-cae75b1072ff.0" configVersion="cf0c9a4d714f60bc6fa76e21a03a391a8301acb6"/>
+		<Metadata name="Catalog.Нейро_Генераторы" id="c730c903-589f-4938-9393-3fd91f378dad" configVersion="057ed61c756f087c0595fe897117b98a5d94445a">
+			<Metadata name="Catalog.Нейро_Генераторы.Attribute.Вид" id="21eb6df5-0f88-4ebb-a4c6-0bb2981f9001"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Параметры.Attribute.Тип" id="361649a3-e36e-461d-a347-be530923422a"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Параметры" id="43a111e3-8d95-4c63-bc08-e799a70fde20"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Алгоритмы" id="6bd409c9-064c-433e-a009-f7aaf45b7801"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Параметры.Attribute.Имя" id="853b8d0e-e508-4a44-9703-3a33746367a0"/>
+			<Metadata name="Catalog.Нейро_Генераторы.Attribute.ИмяГенератора" id="b75eb936-85b3-4c0e-9038-0e8224a886b0"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Импорт" id="bd3cbf06-062e-4958-83fa-21633478a564"/>
+			<Metadata name="Catalog.Нейро_Генераторы.Attribute.ТекстПрограммы" id="ceaf893e-eeee-4178-8985-9399ab2636e4"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Параметры.Attribute.Вид" id="d59b211c-859c-4fee-9906-b6450607fe23"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Импорт.Attribute.Идентификатор" id="f0dcc62d-0898-40dc-b50e-63899040e614"/>
+			<Metadata name="Catalog.Нейро_Генераторы.TabularSection.Алгоритмы.Attribute.Алгоритм" id="f93eb945-a145-492a-ad7f-ee75f8a372b6"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Генераторы.Form.ФормаЭлемента" id="4825df99-b9b8-4810-ab0e-e5d977146280" configVersion="2fbc9296e8772036f60d34eca4fb371962b9974c"/>
+		<Metadata name="Catalog.Нейро_Генераторы.Form.ФормаЭлемента.Form" id="4825df99-b9b8-4810-ab0e-e5d977146280.0" configVersion="53d68b48d4a19a5b6e615af5e74529dacff226c0"/>
+		<Metadata name="Catalog.Нейро_Генераторы.ManagerModule" id="c730c903-589f-4938-9393-3fd91f378dad.3" configVersion="035a6576e81d7850b518a2767c403d67b94461e6"/>
+		<Metadata name="Catalog.Нейро_Генераторы.Template.ОписаниеОбщий" id="950d7705-16c2-403c-815b-bce77584d591" configVersion="e238f5f307362d9e2dec0a5b8c810ad8d1206b89"/>
+		<Metadata name="Catalog.Нейро_Генераторы.Template.ОписаниеОбщий.Template" id="950d7705-16c2-403c-815b-bce77584d591.0" configVersion="67cb38f45c576d201c5de693ef6e84bf7cf7f06d"/>
+		<Metadata name="Catalog.Нейро_Генераторы.Template.ОписаниеЧастный" id="506092fd-4bdb-43e6-900b-a61b578b7a6a" configVersion="44aa54c14b2e19f79066996f69f934092d267d58"/>
+		<Metadata name="Catalog.Нейро_Генераторы.Template.ОписаниеЧастный.Template" id="506092fd-4bdb-43e6-900b-a61b578b7a6a.0" configVersion="9ef006a283159ed2b998127caa5939985275eca5"/>
+		<Metadata name="Catalog.Нейро_Массивы" id="34fceb6d-e503-433e-8457-d6db15521d81" configVersion="24bce0b0ff1c40e38991cb699cc5375b59a300cf">
+			<Metadata name="Catalog.Нейро_Массивы.TabularSection.ЭлементыСписка.Attribute.Тип" id="1f789928-4062-4416-ae48-4f8114145862"/>
+			<Metadata name="Catalog.Нейро_Массивы.TabularSection.ЭлементыСписка.Attribute.Ключ" id="7d62646a-f4bb-43c9-b398-e90a66b34f1c"/>
+			<Metadata name="Catalog.Нейро_Массивы.TabularSection.ЭлементыСписка.Attribute.Значение" id="d7262702-a3ab-4dea-a722-3dabe0876e30"/>
+			<Metadata name="Catalog.Нейро_Массивы.Attribute.ТипСписка" id="f3eb072b-7bc9-4ff8-912b-b73da0efd6ec"/>
+			<Metadata name="Catalog.Нейро_Массивы.TabularSection.ЭлементыСписка" id="f7009799-bb60-41f9-8a9f-a1c5d9d42aa8"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Массивы.Form.ФормаЭлемента" id="7ab9b641-c313-430b-887d-da9bb4de16f1" configVersion="5a53e0049df3c38b86e5d3d1a1c8b05890f353a4"/>
+		<Metadata name="Catalog.Нейро_Массивы.Form.ФормаЭлемента.Form" id="7ab9b641-c313-430b-887d-da9bb4de16f1.0" configVersion="6d359c455c61f00474a60502634d5c44db09dbad"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели" id="90292c35-eea7-4ab7-91d3-5b76b28b75b9" configVersion="b5d155a853cdff8c39e00d15e9a4c1228fbeb7e9">
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Выходы" id="0b62936c-412d-439b-9bbe-80c7ee6de253"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Входящие.Attribute.ИмяИсходящего" id="1320b7fd-96c4-4310-b7e2-1d9542153183"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Формы" id="2d14a03e-7397-42b5-a7be-00ee5a45879c"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.Тренируемый" id="4cd02483-6891-4da1-8061-721429a77d45"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.Положение" id="4e992b9d-356f-4591-86b9-4ae0130e4543"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.ИмяУникальное" id="86cc4937-3e3a-4d26-9597-51171cb577ea"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.ТипСлоя" id="91685eea-9fc6-4e5e-b942-a0ea1306266f"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Формы.Attribute.Значение" id="9883350c-df34-4352-802e-62b643e7a1e1"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Входы" id="a4e7dcf3-22b8-4bf5-a693-fd09f7a53354"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои" id="a6020f01-effe-4f94-bca3-589b701ef2fe"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Формы.Attribute.ИмяСлоя" id="bc45e813-403e-4fda-ac35-3a958c231282"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.ИдСлоя" id="bd7d8188-7b0e-45ba-838c-8f526db0c80f"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Выходы.Attribute.ИмяСлоя" id="be7fb8f5-cbe4-45d5-ab72-6158ffbc1fae"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.Attribute.ТекстМоделиJSON" id="c0632aed-cce8-4fbd-9d29-55a4ec050da6"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Входы.Attribute.ИмяСлоя" id="c0a275f1-9d1d-43f5-917b-ba38c54c0eb7"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.Attribute.ИмяМодели" id="cbad9131-8c22-476b-a907-a336740a6a62"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.Имя" id="cbcd0ba5-bac3-4026-b8fe-cc2c03a98ca3"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.Тип" id="da88a344-7013-4f99-a04a-8557814c1326"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Слои.Attribute.Форма" id="de8b761f-6b1a-4bcf-bc71-88ff4d467bdf"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Входящие.Attribute.ИмяВходящего" id="e58e0528-fc9a-49d0-b318-c1ca39750569"/>
+			<Metadata name="Catalog.Нейро_ПодключенныеМодели.TabularSection.Входящие" id="f4c3eab1-b188-4660-9a87-795fdf62ef3e"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаПросмотраМодели" id="e312b03f-0c50-4d89-9edd-2b0604963ae5" configVersion="d382af64f761c737f1ad11220525f939edbeff2e"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаПросмотраМодели.Form" id="e312b03f-0c50-4d89-9edd-2b0604963ae5.0" configVersion="6f5ea2d2b4dfcff9b37474efcef19a6e6f8fd011"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаСписка" id="5c2ea9a4-bf66-46cd-a4f6-b46378190359" configVersion="5f1797746be3e943ed849f63b8c1b4776e557f3d"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаСписка.Form" id="5c2ea9a4-bf66-46cd-a4f6-b46378190359.0" configVersion="e57a7e732f19edda03ded1293f9cb95de5097d63"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаЭлемента" id="2867d0e0-6844-494a-815e-3179a0c4eb45" configVersion="02bcc76d1d48e90bbad943a4814dbf3a9aaa86e9"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.Form.ФормаЭлемента.Form" id="2867d0e0-6844-494a-815e-3179a0c4eb45.0" configVersion="2b9a7587f3f0b5a96aa2b3dc8b5b3c72ad11372b"/>
+		<Metadata name="Catalog.Нейро_ПодключенныеМодели.ObjectModule" id="90292c35-eea7-4ab7-91d3-5b76b28b75b9.0" configVersion="555bdc80343c6de197b0645613de36bf39f39061"/>
+		<Metadata name="Catalog.Нейро_Слои" id="c4954028-3b45-4a6b-abe2-3955198beaa5" configVersion="1d3951c4f1e93f98a6f8d050f68a15715a8b7a44">
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ТипСлоя" id="1f63e33f-5926-4457-a392-255e49517107"/>
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ОписаниеСсылка" id="444827ad-626b-435c-a50f-dcd78a68a280"/>
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ОписаниеСлояАнг" id="bc466299-2530-4316-a6d2-3c2fd1074948"/>
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ОписаниеСлояРус" id="c1f17940-b9c4-4b68-8520-8e83423b3c16"/>
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ВидСлоя" id="eeac3a6a-0031-4330-b446-b1d7895f382c"/>
+			<Metadata name="Catalog.Нейро_Слои.Attribute.ИдОбъекта" id="f6764704-b137-4a6a-bea5-9126b476dbf0"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Слои.Form.ФормаЭлемента" id="83169db1-4c9e-4d79-9b3d-15a61e57d4e7" configVersion="3b38eebd7c0657e00b0fc9762618cf7730b79ad5"/>
+		<Metadata name="Catalog.Нейро_Слои.Form.ФормаЭлемента.Form" id="83169db1-4c9e-4d79-9b3d-15a61e57d4e7.0" configVersion="a81cfbf49ac0819568a18a31f335211a224840a5"/>
+		<Metadata name="Catalog.Нейро_СпискиАлгоритмов" id="7097e2e7-f2a2-46b7-a203-90d2b499ce76" configVersion="48fdef226893e1672184bc906e765d10b6b65d28">
+			<Metadata name="Catalog.Нейро_СпискиАлгоритмов.TabularSection.Алгоритмы.Attribute.Алгоритм" id="5063b279-e379-4d31-ae3c-330ed5fd9c9c"/>
+			<Metadata name="Catalog.Нейро_СпискиАлгоритмов.TabularSection.Алгоритмы" id="a983b868-fd9e-4558-8ff8-a08bb6474178"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Функции" id="8939c7ad-bd3a-405d-8273-e4acedf89d3f" configVersion="328c64c7c585129c81d079251f0f38b9adaa031f">
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры.Attribute.Имя" id="0e655b76-437d-498f-afe1-b37c0ac9b840"/>
+			<Metadata name="Catalog.Нейро_Функции.Attribute.Идентификатор" id="29413a06-bc1c-4296-94ac-60acf53d1fc8"/>
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры.Attribute.Тип" id="6b960bb0-e44e-43ec-80e2-eeaba449df57"/>
+			<Metadata name="Catalog.Нейро_Функции.Attribute.Тип" id="8665addd-47de-46f5-bce9-6a1a3f343f42"/>
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры.Attribute.Ид" id="9a79c2cc-e6be-4afc-83c4-5ca18d0e6321"/>
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры.Attribute.Значение" id="a0d755af-c6a5-43c1-9a72-98614a2260b3"/>
+			<Metadata name="Catalog.Нейро_Функции.Attribute.Значение" id="d971caf4-8fd2-4ffa-a03f-35d210e19717"/>
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры" id="f25c70cf-4018-429b-bd23-861a79fb66c5"/>
+			<Metadata name="Catalog.Нейро_Функции.TabularSection.Параметры.Attribute.Использование" id="fbef2926-3f71-41b3-9aca-a38b054ee637"/>
+		</Metadata>
+		<Metadata name="Catalog.Нейро_Функции.Form.ФормаЭлемента" id="72bdd390-01b5-4845-99f5-ff25f0799524" configVersion="0b21bcdef9facf37ba1c40b17da06e6b42ff48c0"/>
+		<Metadata name="Catalog.Нейро_Функции.Form.ФормаЭлемента.Form" id="72bdd390-01b5-4845-99f5-ff25f0799524.0" configVersion="ba08113735f905eb345f2f4975bf60e2b52d18e9"/>
+		<Metadata name="CommandGroup.Нейро_Документы" id="a84efa8c-1680-436e-9019-22109fdc150d" configVersion="6b2fbb4beb52259ff3646ca4b189388a8ff0eca4"/>
+		<Metadata name="CommandGroup.Нейро_Настройки" id="7da0c894-f4ab-44da-af59-4ed6d50ed940" configVersion="e00bdd006c2dbffb7184e3cfe054bba330bab8a7"/>
+		<Metadata name="CommandGroup.Нейро_Справочники" id="2375a8f8-ad27-4974-ba7f-e192d8c7ba2b" configVersion="be6f5bd94034647db7f71e394d67fe9c5d263c2c"/>
+		<Metadata name="CommonCommand.Нейро_Информация" id="f33464cf-2aec-4d93-bf40-12f65a4efaec" configVersion="d98e646b6e0f7aa5f9c1cf0a47284cbdc7c7aa1f"/>
+		<Metadata name="CommonCommand.Нейро_Информация.CommandModule" id="f33464cf-2aec-4d93-bf40-12f65a4efaec.2" configVersion="7c26d2aab9fd99d3040096e3ec19f754ad30727b"/>
+		<Metadata name="CommonForm.Нейро_ДеревоJSON" id="bc2c9d4b-b7f2-47ba-b3c6-b7648aff122a" configVersion="101ef718e453d727db53bf46a911adfa903909de"/>
+		<Metadata name="CommonForm.Нейро_ДеревоJSON.Form" id="bc2c9d4b-b7f2-47ba-b3c6-b7648aff122a.0" configVersion="66bb1ff7a027d66830d28aba55d9c59eabc4a3a4"/>
+		<Metadata name="CommonForm.Нейро_ЗапускTensorBoard" id="aa15c475-d920-4fba-a5b6-d92bfd35c94e" configVersion="d7d4941fc697a8a1cceeb736249fb290969090eb"/>
+		<Metadata name="CommonForm.Нейро_ЗапускTensorBoard.Form" id="aa15c475-d920-4fba-a5b6-d92bfd35c94e.0" configVersion="4197ee72e1c5baa05f14319904e5ee393635d805"/>
+		<Metadata name="CommonForm.Нейро_ФормаОКонфигурации" id="acd09153-8ae5-41f8-b2fd-f204a22da7ce" configVersion="84f43c3e3ae7899aea410683a4bee3129d54367e"/>
+		<Metadata name="CommonForm.Нейро_ФормаОКонфигурации.Form" id="acd09153-8ae5-41f8-b2fd-f204a22da7ce.0" configVersion="23440a6aec7461585057c645fe1ca9ffd2ccfc74"/>
+		<Metadata name="CommonForm.Нейро_ФормаПоказатьОшибки" id="46214242-1275-4832-9893-52821b1661b0" configVersion="a06d74395baf3a9c6f3dc7d2bd9e96078e0fdd1b"/>
+		<Metadata name="CommonForm.Нейро_ФормаПоказатьОшибки.Form" id="46214242-1275-4832-9893-52821b1661b0.0" configVersion="310c85176f2965135fad3b9a6d00360b27bc58b6"/>
+		<Metadata name="CommonForm.Нейро_ФормаСпискаЗначений" id="25928f75-6435-400d-b3c9-574ac633c8b8" configVersion="9c4b2050fb50f00e2c691a412a63f96eba8db1cc"/>
+		<Metadata name="CommonForm.Нейро_ФормаСпискаЗначений.Form" id="25928f75-6435-400d-b3c9-574ac633c8b8.0" configVersion="779a0283a7ffeb156d548597757753de1efe9d19"/>
+		<Metadata name="CommonModule.Нейро_Обучение" id="a5a4627c-f156-423b-911c-a67715f8b35d" configVersion="e64107096ec0b8d964a4913fba4ba5988e2983a7"/>
+		<Metadata name="CommonModule.Нейро_Обучение.Module" id="a5a4627c-f156-423b-911c-a67715f8b35d.0" configVersion="c95aa2b58719304176ed5a7e09d45b4fa9909dd2"/>
+		<Metadata name="CommonModule.Нейро_ОбщийМодуль" id="fee1e369-bf81-4b2b-ad37-90ab5a270b37" configVersion="414fdc7bebd3f0861f2c6d4b74baeecb223afa5d"/>
+		<Metadata name="CommonModule.Нейро_ОбщийМодуль.Module" id="fee1e369-bf81-4b2b-ad37-90ab5a270b37.0" configVersion="4cd3aa5de04dff7c5c9768e94616cba318680924"/>
+		<Metadata name="CommonModule.Нейро_ПодготовкаДанныхНаСервере" id="ef074f1d-b390-43b8-9e90-985b222f111d" configVersion="41943e3cdb1ff90e6a04b653753f767450a77998"/>
+		<Metadata name="CommonModule.Нейро_ПодготовкаДанныхНаСервере.Module" id="ef074f1d-b390-43b8-9e90-985b222f111d.0" configVersion="4366dfeb4ef0e2f9e70a746cded9aba50b2509b8"/>
+		<Metadata name="CommonModule.Нейро_РаботаСФайлами" id="2a9c5c26-e091-4e68-9d0e-22dec9570749" configVersion="adfacb6396a9dffe1269593499e8ee4e095005e9"/>
+		<Metadata name="CommonModule.Нейро_РаботаСФайлами.Module" id="2a9c5c26-e091-4e68-9d0e-22dec9570749.0" configVersion="b0ed6e9208ca08d579cdf9f09b602c8477b69f7c"/>
+		<Metadata name="CommonModule.Нейро_СозданиеМоделиНаСервере" id="a6429af1-ea5a-4a1a-b837-6408337e0672" configVersion="8fd1d48cbd7b221713fb6a6a795dc1afd1f66604"/>
+		<Metadata name="CommonModule.Нейро_СозданиеМоделиНаСервере.Module" id="a6429af1-ea5a-4a1a-b837-6408337e0672.0" configVersion="1b8ad05d79cb047078aa172adfd14b7798b4dfbf"/>
+		<Metadata name="CommonPicture.Нейро_ВниманиеОшибка" id="e95bbde6-17b6-492a-9a41-3ef30359530b" configVersion="d46e9585bc36e6bcf06b421be3bd0cbc1d4a634d"/>
+		<Metadata name="CommonPicture.Нейро_ВниманиеОшибка.Picture" id="e95bbde6-17b6-492a-9a41-3ef30359530b.0" configVersion="a87cfaa27cb157b10a1b71385c0525cdb4e2f163"/>
+		<Metadata name="CommonPicture.Нейро_Инфо16" id="797eb87b-fe67-422f-9b7c-11341897cad9" configVersion="568697c1b6cd2974146ec759a6d292c0d60584e5"/>
+		<Metadata name="CommonPicture.Нейро_Инфо16.Picture" id="797eb87b-fe67-422f-9b7c-11341897cad9.0" configVersion="91908e82ef87bb255299fbda79fe72f27136b7ce"/>
+		<Metadata name="CommonPicture.Нейро_Логотип" id="40e15121-9af7-4538-b39e-b21bef5695db" configVersion="1ae5d18e6388d36536f74a6a9503964d433b8ce1"/>
+		<Metadata name="CommonPicture.Нейро_Логотип.Picture" id="40e15121-9af7-4538-b39e-b21bef5695db.0" configVersion="4a83408d3658730b655a93805c45f654cef25331"/>
+		<Metadata name="CommonPicture.Нейро_Раздел" id="a9cd90db-3488-4aa2-b86d-777d160f4e2e" configVersion="b787be6d42b22fc5347cb91fd45b46871b2c7cbe"/>
+		<Metadata name="CommonPicture.Нейро_Раздел.Picture" id="a9cd90db-3488-4aa2-b86d-777d160f4e2e.0" configVersion="aeab3403240521abee2cb758bd5d22ee8890ab6c"/>
+		<Metadata name="CommonPicture.Нейро_УвеличитьОтступ" id="b60e8002-dcf6-479c-8a41-9ee26eef02df" configVersion="f4a2ee70eaca2ec7d6940cca15a80deb76fa7ba3"/>
+		<Metadata name="CommonPicture.Нейро_УвеличитьОтступ.Picture" id="b60e8002-dcf6-479c-8a41-9ee26eef02df.0" configVersion="85e2b2d4f1cff1e021e2df6aa5ff8da8ebd3a37d"/>
+		<Metadata name="CommonPicture.Нейро_УменьшитьОтступ" id="13d6e15b-18b7-401c-8194-e6f42891c1fa" configVersion="1ec4363706a6cf2a3dda0c89b283166d4fadff0d"/>
+		<Metadata name="CommonPicture.Нейро_УменьшитьОтступ.Picture" id="13d6e15b-18b7-401c-8194-e6f42891c1fa.0" configVersion="1650214ae069e9eae27c742d32b0e6a50c5105b0"/>
+		<Metadata name="CommonTemplate.Нейро_Кодировки" id="1238e418-672d-4385-93e7-ca3efe4cd5d4" configVersion="d42fac472e1d7f34dc61232e55af5e2be7350e74"/>
+		<Metadata name="CommonTemplate.Нейро_Кодировки.Template" id="1238e418-672d-4385-93e7-ca3efe4cd5d4.0" configVersion="e3d3c8d7b5fd86110dbfe88453af37c4bff98ac9"/>
+		<Metadata name="Configuration.НейроКонструктор" id="8a096501-376e-4143-836d-602bbcc77b39" configVersion="d4423cddeb44ece85587a1633333aed7bc639098"/>
+		<Metadata name="Configuration.НейроКонструктор.MainSectionCommandInterface" id="0f942716-ca78-4799-b927-120e921f52ef.9" configVersion="ddbb5e1b5f616ba9389a7e0535da0a1cbd18509b"/>
+		<Metadata name="Configuration.НейроКонструктор.ManagedApplicationModule" id="0f942716-ca78-4799-b927-120e921f52ef.6" configVersion="ee9442852b8f1d8215b077ae51b501dfeedeb8c0"/>
+		<Metadata name="Configuration.НейроКонструктор.SessionModule" id="0f942716-ca78-4799-b927-120e921f52ef.7" configVersion="9d88fea5d296677c37d102c4850d9c0a650b803c"/>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных" id="92083314-7794-4fc6-8585-b0245fb1179d" configVersion="b985bfc816dd6e56a0afd68016407a3b572530d9">
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.КаталогТекстов" id="0db5c8fd-0eb1-45af-a39f-7c273147eb06"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.НижнийРегистр" id="17658c3c-a004-4acc-b7d5-4cc4882f7bec"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Массивы" id="18d398aa-eb73-4097-ba5b-76d047d56a46"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.Разделитель" id="1ec3e14d-1780-40be-bfdc-530efd948e4a"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстДвоичныйРежим" id="218d2ae1-abf0-4771-b261-38c8afa107ec"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстИзКаталога" id="25195029-fb72-4669-8091-92517f97276e"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстДлинаПоследовательности" id="26dab0e9-3374-4cd1-810d-224b4ca4946f"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстСоздаватьМетки" id="2e6350e4-a6da-4527-a07e-9e1fa8bde2a3"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.Колонка" id="3850ffa3-2e9f-48d0-9507-5580520e9898"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ИзображенияТипДанных" id="3d7ba8f0-369d-4272-8f80-8f23269f22fd"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстМестоДополнения" id="3f94865b-1d5f-45cc-b2fc-0ec49a139159"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстПрограммыСловарь" id="42452de6-c34f-47d5-af95-9402e9f4419c"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.Разделитель1" id="46c8af5b-a80d-4705-968d-9627181f3fc2"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Массивы.Attribute.Форма" id="55ca2e18-f178-4aa6-be74-df7a869cd209"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.ТипДанных" id="576e36e1-87a7-4b5b-bd97-409c213f68e0"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.ПутьКФайлу" id="58b297a6-3168-43e0-9dda-0bfefd0129cd"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.КоличествоТаблиц" id="5bf41990-bf8a-4457-bf17-5125bc81b976"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ВидДанных" id="64f95434-cb03-4664-94cc-4612936b42ff"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Массивы.Attribute.ИмяФайла" id="668c56b8-37cc-45cf-ba44-a1e1aa0e3ca1"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ПутьКФайлу" id="6764403c-86c5-4afa-a541-e48ce225ed5f"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ПутьКСловарю" id="68550157-adb9-47c8-8880-0c58dc7a5c42"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.Расширение" id="723c07d4-d4ea-4a24-a1df-7656094db2f9"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Массивы.Attribute.ПутьКФайлу" id="8501e07c-d22b-4687-93dc-c4bc7da4296c"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстКодировка" id="8828b7c6-91ad-47c5-8a46-8f98304844ad"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные.Attribute.Заголовок" id="8a2d94dd-4b4a-4568-a2d4-29d3ce42bab1"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстПеремешивать" id="8d5557ae-3a03-4473-b106-8a81d95d53e3"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.РазмерСловаря" id="a4443669-288b-44b3-9fee-c3a2333d84ba"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ИзображенияИнтерполяция" id="b46d1b31-5386-4d86-8a1d-a69cfd171410"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстПреобразовать" id="c1b99750-a5ab-49a3-8130-b53fc9c35db5"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ПромежуточныйФайл" id="c5ad87bf-99eb-4324-b4d6-d0b72875fa6a"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.Разделитель" id="c7d962b7-f327-46af-90a8-5cb080416919"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ИзображенияВысота" id="cb4d462a-12b2-46dc-9163-01cca1366f1d"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Массивы.Attribute.ТипДанных" id="cea70cb0-f03b-4f44-bdaa-b773c68e86c8"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстЗапроса" id="d0a33fac-a523-42bb-9964-804ef695db5a"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстМестоУсечения" id="d1ed1797-b729-4be5-bb2f-88ab33f2ae7f"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.TabularSection.Данные" id="d9859cc4-4ba5-482d-a4ba-adc60fd265ac"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТипДанных" id="dcf842a7-8e33-471a-8733-705e8550d403"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ТекстПоследовательности" id="dd7e6c75-2f92-4129-871a-e1b44ae3e3d4"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.Фильтры" id="e061619a-6a13-4e31-b530-e56e362451cf"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ИзображенияШирина" id="e326bcf6-07b1-4229-a373-23f8d4e7dbdc"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ПропуститьЗаголовок" id="eb03b07f-c9bd-45f0-94e3-c7cce1f4f253"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.ИзображенияЦветоваяПалитра" id="eb15da59-0aa1-4593-848f-2916779dfcde"/>
+			<Metadata name="DataProcessor.Нейро_КонвертерДанных.Attribute.НомерКолонки" id="fd423fa8-f54f-4828-a67d-b48dfae2a523"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных.Form.Форма" id="fbbdb60e-0887-4198-aaa9-c6d06dff3c68" configVersion="b29c3fad4fb9068118f97570b9549137b35fd1ad"/>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных.Form.Форма.Form" id="fbbdb60e-0887-4198-aaa9-c6d06dff3c68.0" configVersion="383fb14161d67a90d55289cb97c05a6681ba44dc"/>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных.Form.ФормаКлассыИзображений" id="233caa60-461c-4c7e-971d-f248e212afe7" configVersion="8b4546b6470352a0bca0772bd08d116dba4204e6"/>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных.Form.ФормаКлассыИзображений.Form" id="233caa60-461c-4c7e-971d-f248e212afe7.0" configVersion="b10f9088f8686d749320c997c8dc640b053fc2aa"/>
+		<Metadata name="DataProcessor.Нейро_КонвертерДанных.ObjectModule" id="92083314-7794-4fc6-8585-b0245fb1179d.0" configVersion="71fc20a37a69d3fb660906d0e544a6c3979d3b3c"/>
+		<Metadata name="DataProcessor.Нейро_КонструкторДанных" id="626126be-816a-40a1-93b6-3417d3117c04" configVersion="95e7658edaf8dc1969707aadc318a06e0571df05">
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.ПутьКФайлу" id="2b334b96-3903-46c9-a6bd-1930472e399b"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.Attribute.Разделитель" id="35752c0d-f52b-456a-b71f-e5fee8e4c8c5"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.ПутьКСловарю" id="3df49401-1163-4db0-bddb-aadd5db8f0bd"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.ТипДанных" id="46d81666-a1b7-481b-ae81-c0e88dcf92be"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.Attribute.ПутьКФайлу" id="56cf0a03-2e1f-4b32-a809-91ffee3785b9"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.Колонки" id="85efdb23-71ab-4d22-9559-9f968a3d74c0"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы" id="a9427e98-c932-47ed-b5a5-c8845aafa166"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.Attribute.ПутьККаталогу" id="c0806df6-0436-4f31-bc55-e25b66b31779"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.Соединитель" id="d849f1fb-5822-49ed-af8d-a254561fffdc"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.СоздаватьСловарь" id="df62557b-05a9-4c3e-a955-6fbd839cb525"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.Attribute.ПропуститьСтрок" id="f8ef5cc8-e391-4b06-bfbf-23054e2390db"/>
+			<Metadata name="DataProcessor.Нейро_КонструкторДанных.TabularSection.ВыходныеФайлы.Attribute.ИмяСлоя" id="ffeb3419-bfe6-447e-a568-6ab1b7b66980"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Нейро_КонструкторДанных.Form.Форма" id="f6a5dd89-c4ba-4f2b-9bec-d2caa6d4b446" configVersion="7be6e8f5b8189a32bc131b7daa27f7afa4898b33"/>
+		<Metadata name="DataProcessor.Нейро_КонструкторДанных.Form.Форма.Form" id="f6a5dd89-c4ba-4f2b-9bec-d2caa6d4b446.0" configVersion="d88584b66a40bb45ea754d11595254b60b7710e3"/>
+		<Metadata name="DataProcessor.Нейро_КонструкторДанных.ObjectModule" id="626126be-816a-40a1-93b6-3417d3117c04.0" configVersion="3e763b403a25240f8db88f11f882faf7b4dc2cdc"/>
+		<Metadata name="DataProcessor.Нейро_ЛицензионноеСоглашение" id="3541de3b-1738-4295-94e7-837735488d2f" configVersion="5e8fdb6a70760d3ef8da4cd45c8cecf99c1c0b0d"/>
+		<Metadata name="DataProcessor.Нейро_ЛицензионноеСоглашение.ObjectModule" id="3541de3b-1738-4295-94e7-837735488d2f.0" configVersion="646d5400d57c61c441361c08573fcf160bc50a91"/>
+		<Metadata name="DataProcessor.Нейро_ЛицензионноеСоглашение.Template.Макет" id="6278c442-cd70-41a7-8d16-aca593e77768" configVersion="cf38b5927e5881ed27f756b3c0f699ef5d1be084"/>
+		<Metadata name="DataProcessor.Нейро_ЛицензионноеСоглашение.Template.Макет.Template" id="6278c442-cd70-41a7-8d16-aca593e77768.0" configVersion="1ba8d8b0d3a0e9100ddd410ce079c56b57bf18fd"/>
+		<Metadata name="DataProcessor.СозданиеСлоев" id="ab416d1a-4334-42b5-9835-edb07e214bca" configVersion="f7a3a6f1b607c78c7377fb82b58b10b9d13849ae"/>
+		<Metadata name="DataProcessor.СозданиеСлоев.Form.Форма" id="3a2a920d-686b-45bf-bac9-3920635bfa2f" configVersion="f6650bb3e1aa793a4c4e54846b7d081d8db73fad"/>
+		<Metadata name="DataProcessor.СозданиеСлоев.Form.Форма.Form" id="3a2a920d-686b-45bf-bac9-3920635bfa2f.0" configVersion="3ec18dbf3a53d67522bbed1dfb82dd2a377e3e76"/>
+		<Metadata name="Document.Нейро_КомпоновкаМодели" id="cb09048d-534c-4111-bcbc-16d4d3b9aacc" configVersion="3d88d794dc931d526a80d32c38bbf2415aab9f74">
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.КартинкаМодели" id="0630faf5-9903-4b24-af7a-d1572f5ee2b9"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.Имя" id="08c4ea68-d4b0-49cf-833c-f669d75477bf"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПеременных" id="0922d02a-fb26-4e21-bada-c7fb3ce77433"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.Объект" id="0f0881aa-359a-4a59-8b2d-bab107fedbe5"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.ИмяСлоя" id="12abe857-63ac-473e-a317-a31ec98bea51"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Композиция.Attribute.Входящий" id="1d71fffc-ea95-4e18-b562-dfefdb3244f3"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Композиция.Attribute.Исходящий" id="24335ae3-c20f-48f9-8339-444dff066f66"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПрограммныхТекстов.Attribute.Слой" id="2532755b-ed2f-4cf1-93cd-b2233407ac06"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя" id="28552257-7297-47b0-a68b-62fb47d04435"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПеременных.Attribute.Ид" id="286e9d01-cdb5-4beb-8987-67ac914ae0dc"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельИсходящие.Attribute.ИмяУникальное" id="30299c7c-2148-4ad8-9f09-b868e90fd5db"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельВходящие.Attribute.Форма" id="30deb38c-6a50-4710-90db-687ce79e2547"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Слои.Attribute.ИмяУникальное" id="3f392dea-a76a-484f-b069-64cfbd5dd24d"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.ТекстМоделиJSON" id="4548ac36-7917-4a18-bcee-1bf55eb231bf"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельИсходящие.Attribute.Форма" id="49aa450d-780f-41eb-b9f0-b3f37a589aa7"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Слои.Attribute.Слой" id="539c31a4-3085-4f5d-a767-b45c1f737c55"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Слои.Attribute.Тренируемый" id="53b9b41e-14eb-43f5-856b-f306c07a4226"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельВходящие.Attribute.ИмяУникальное" id="640866a6-9a1c-4ed5-8c88-1784ca15b642"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельИсходящие.Attribute.ИмяСлоя" id="6de9ed4b-f7d5-4ac0-858a-f0ceda0ba034"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.ИмяМодели" id="76c3624b-b5ca-4c79-ac91-113074323d8b"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Слои" id="7e9f715d-0247-49d3-ad41-2b2d7fe9cc5a"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.Ид" id="80ec59b4-9c67-44aa-95a5-246caaea4a47"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПрограммныхТекстов.Attribute.ИмяСлоя" id="8ada7f42-0fe2-44d2-9c3c-4278c4d98e70"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельВходящие.Attribute.Тип" id="95ecb451-70bb-46e4-bf11-ab22b4ca017f"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПрограммныхТекстов.Attribute.Ид" id="9a3085d9-2210-4d35-9372-fa36682e795a"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПрограммныхТекстов" id="9d840ad9-e510-4558-ad49-e60c42eacb25"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельИсходящие" id="a1fc7342-6fe1-4fda-aac4-dd6e9d7b695c"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.ИдентификаторМодели" id="ad924d6c-f47d-4abf-9fad-3308d886c9ea"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельИсходящие.Attribute.Тип" id="b0fa9ae2-42f4-4271-8636-5515be7e0fa7"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельВходящие" id="b76a9f10-9891-4e89-b24f-7ee2227c6ade"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.СводкаМодели" id="c3a44d2b-0560-480e-8ea9-1f8034c5555a"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.Тип" id="c54b31b2-a3b0-41b3-a974-0bff657cbe0b"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.МодельВходящие.Attribute.ИмяСлоя" id="caadabbb-d9c0-472c-b755-1379b3b497b3"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ПараметрыСлоя.Attribute.Значение" id="cc06ff71-8ce7-455d-8d66-57b4006be94c"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Композиция.Attribute.Индексы" id="cc3f62ee-50b7-47ee-b3fa-97b2b077e5bf"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.Attribute.ТекстПрограммы" id="ce0f5ff6-a793-41e7-b47b-579fc8dbad5d"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Слои.Attribute.Имя" id="d41bce07-e5f1-4308-8f44-70c6403ef947"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПрограммныхТекстов.Attribute.ПрограммныйТекст" id="d5f9dc26-9406-483b-82eb-626858e317e7"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.Композиция" id="d7848e27-7c7e-497f-9dd7-e9263a3717d6"/>
+			<Metadata name="Document.Нейро_КомпоновкаМодели.TabularSection.ТаблицаПеременных.Attribute.ИмяСлоя" id="df219ae0-50ef-40ba-a3e1-691695068ee6"/>
+		</Metadata>
+		<Metadata name="Document.Нейро_КомпоновкаМодели.Form.Форма" id="46523a3a-9b0e-4b7b-8950-2de1db65a6c5" configVersion="7ad4c40cdaed7116226473e0da579432b74f7887"/>
+		<Metadata name="Document.Нейро_КомпоновкаМодели.Form.Форма.Form" id="46523a3a-9b0e-4b7b-8950-2de1db65a6c5.0" configVersion="6c9b517e817e062aec65ab351ef9ab8e09551dfc"/>
+		<Metadata name="Document.Нейро_КомпоновкаМодели.Form.ФормаСписка" id="61d082ef-dafd-42c3-946d-9130a32e80c7" configVersion="f953ac31128a4e7f1bc7c545ba51aaf396b8fa1b"/>
+		<Metadata name="Document.Нейро_КомпоновкаМодели.Form.ФормаСписка.Form" id="61d082ef-dafd-42c3-946d-9130a32e80c7.0" configVersion="ae9b76cca618eefe1b19a2f0bb0aa5d0708aa1ca"/>
+		<Metadata name="Document.Нейро_КомпоновкаМодели.ObjectModule" id="cb09048d-534c-4111-bcbc-16d4d3b9aacc.0" configVersion="5c2fdd2108aacf13e8a0e0a5da5fe360685a621a"/>
+		<Metadata name="Document.Нейро_Обучение" id="de1716df-742f-4d4f-a349-f9871c959e7a" configVersion="0c666a0c22b74d2bf3ff1988ebc9ca40cd3ac173">
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.НормализоватьКолонки" id="0039fcca-6740-4dd2-b355-2be0e1b76d2f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.РазрешениеВысота" id="00f1b629-3c74-4123-8f2a-dd11c28d5c34"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.НормализацияПоПризнакам" id="01f46720-d603-49f1-8497-92be6a0efe4a"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.ОжидатьУлучшения" id="020458a8-7983-438e-9b17-79b3e352e3a2"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.СпособЗагрузки" id="02a7b39c-c938-48ad-bf33-efac6dd08a0a"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ЗагружатьСлоиПоИменам" id="0338be4d-e2ed-4673-a4fd-17dd3b291bfb"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ИндексНачало" id="03b03df2-9cd7-4ee5-b5ac-c01532c4768b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.Отслеживать" id="03f6b2e7-ba25-4ac1-8aae-d4e4267ae39d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.КаталогСохраненияПроверка" id="058d1bbe-32f1-44b8-8a7d-0dc618bc6298"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ПутьКФайлу" id="0697c8c5-1d72-4541-98d0-1ba35338a2ac"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ФорматФайла" id="0708c7a6-6a23-4406-8a56-88f63e21dee6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.ПутьКФайлу" id="07c8eee7-8e28-4043-a428-bf4098801081"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.РазмерПакета" id="07f1c26c-f101-4985-803e-c455a7557595"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.ИмяСлоя" id="0a33bba5-acd0-4caa-8c2c-a1165e072938"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.КолонкаЦели" id="0aa51ed2-1b90-4912-b575-9752220d4377"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.НормализацияПоОбразцам" id="0af056fb-3f35-49fe-94eb-e229f3da577b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Колонки" id="0e59cd79-2577-4f9c-a61c-a2bfdfed2206"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы" id="0ea07773-d274-41e1-b182-9f228a244ba9"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Векторизация" id="13baf0a4-4cda-45f9-85fe-6c5ce9ff6839"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИндексНачалоПроверка" id="14f635d9-3ff7-4484-9092-36b5f633f782"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоВысоте" id="151b4d53-acf7-4c11-8d44-60ece27436a8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Кодировка" id="1790b116-ff71-44c2-ad79-326a6dd08f2a"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Источник" id="17e659f8-06a6-4ac7-8f45-3a31ece651f9"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.РазмерПакетаПроверка" id="1a77e55f-ea41-47e1-bb9c-b427a4e84ddd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЧастотаОбновления" id="1eb981f1-de16-4392-b159-05447ec112f8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.СписокКолонок" id="1f23cf72-38f5-4cff-9ca2-0b97a0a083fb"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ФункцияПотерь" id="1fa04739-4fd3-4dff-8268-0ef1245b9e03"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.ПутьККаталогу" id="1ff80a50-6e5b-4f37-a419-2ebbfeb316a7"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИнтерваловНазад" id="205732b0-6d53-474d-984f-bf21e150ffb5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.МасштабироватьОбъединить" id="20bc7880-5c24-4d73-b30a-0cb4e92a5d29"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ОтразитьПоВертикали" id="22ea4f32-c076-4842-bc6d-2574c8eb06fe"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ПутьКСловарю" id="23f7f034-64e2-447a-a858-b7c3d23b9ed6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Масштабировать" id="25b13785-b26c-48ca-aef3-0785c7a388c7"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.НачальнаяЭпоха" id="2759142a-2aaa-40ef-b8eb-42a6186e48a0"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.МасштабироватьОбъединить" id="29086e4a-6937-4a44-bdb6-648f38d34236"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ТипДанных" id="29761ea4-11cb-459f-8101-51022eb60c2f"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ВидГенератора" id="2a8f3fa2-8e3e-4c77-a77a-5e79eec630fc"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторыПараметры.Attribute.Значение" id="2cf41836-1909-4e20-833d-a20b5e4620c0"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Тип" id="2d385e6d-69aa-44fd-aa41-3ed902e34186"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.МестоДополнения" id="2dfb9e80-259b-4cc7-a85a-43e97cf30fed"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.НомерПараметра" id="2e1f49b1-b869-48d3-af59-57e83dfc69bc"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ПрямоеКодирование" id="2f026d07-c16f-4239-a37c-d0c898ec9b0d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ДлинаПоследовательности" id="2f5fd6e4-6f42-4fa6-bb90-6be5b96b0b9e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ПропуститьСтрок" id="314f3f1f-83fb-4af9-9919-af91a27f3793"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ПрефиксИмениФайла" id="33477236-d417-4dc4-ab68-4b4ff2127d2e"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.НеЗагружатьВесаМоделей" id="33fa8e4e-1947-4159-b8dd-d5d8f98740a6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.ТребуемоеЗначение" id="351fbf98-5a65-4f66-9d86-52ab6753b85b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов" id="36669eff-d440-4d3c-8bc5-49194d6fc96d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ПутьКСловарю" id="38790ca2-6d9c-444a-86b9-f097ee272fb3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Стандартизировать" id="3b55d85b-0213-4399-b293-576d98eb859f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.СохранятьЛучшуюМодель" id="3d51c8de-5b69-4202-b15d-1df07e39810c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.Отслеживать" id="40fef95b-6737-48ad-948d-1427a7d65b85"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.Коэффициент" id="4132c4cf-80dd-4aba-aaa2-d35d868fe55f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Колонки" id="4160f307-a02d-4681-b577-aff5cf6008d2"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ВесаПотерь" id="42a8ad9d-0e02-47cc-99c7-66152f06a3f9"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ОтразитьПоГоризонтали" id="43127e5b-cedc-4989-8dd5-40ace213b170"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторыПараметры" id="436b514a-7c84-4a3c-818c-16404b21cf03"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности" id="462214ae-1a92-404f-975e-dde36af5ab7e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторыПараметры.Attribute.Тип" id="46c0ab25-9f57-4dd8-b7f4-75c555293e5b"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.СписокПрогноза" id="47c4dedc-705d-410e-ab45-c4ecd58dd3db"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.НовыйТипДанных" id="481d1d99-63c0-476e-bc52-e88b2f2715f8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Нормализовать" id="49790e84-a4a8-4a4a-a6e5-3a8aec340af5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Векторизация" id="4a82ae13-5335-40d8-988f-d039f10e58ed"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Идентификатор" id="4ac1b29d-2d48-449e-86db-7a183571200d"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПроходовОценки" id="4dd19be3-3caf-44d2-963e-233628254343"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Имя" id="4e5bce52-8645-4570-a851-54b9e53d3bcd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.РежимЗаполненияКонстанта" id="4eb1ac6f-be60-4914-9bd5-4b12fc0c9f85"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ТипДанных" id="5175f3ad-8623-4e6b-900e-963b63f8dc43"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.Имя" id="520c2001-24d0-4c38-9294-7c6a6638f5a0"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.РезультатПрогноза" id="536ba76c-02b0-4737-b387-2df3f52e8cd3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЧастотаГистограмм" id="547da6c1-c7aa-4262-a9dc-9bb108ed5c32"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИнтерваловВперед" id="5704c9aa-6fb5-4ba5-8f10-36fbb79da253"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ОтбеливаниеЭпсилон" id="5943675d-03d1-419d-ab98-fb7d38aa2ef0"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИндексНачало" id="5bb9354e-2dba-4183-ab86-16b6811b878b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы.Attribute.Номер" id="5be8a50e-bfb2-4652-b427-b1036b94db91"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.ВесаПотерь" id="5e2464e9-72d1-4d81-8798-d514d8961ce9"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыОбщегоПользовательскогоГенератора" id="5f6ba8a7-945a-4ad6-a120-2efac57ea20c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЗаписыватьИзображения" id="614b0705-efc5-4ff2-ae80-508b3a5ce665"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоВысотеВещественное" id="62264657-4903-4725-9e1a-bbd9c731caf3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ЦентрироватьПоОбразцам" id="623d4227-08cd-4825-9f50-123a9daa8896"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Номер" id="656326f5-200f-4d7a-8783-c022ad9997b8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Переформировать" id="66200d3c-fb60-4227-a6c3-5675cfdf9148"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.РазрешениеШирина" id="66310469-bb07-4b8e-a1f7-814ef6989836"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Масштабирование" id="68c53b34-1f60-42e0-82e1-1ce0dff151ed"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ИспользоватьГенератор" id="68f6780d-ebd9-44cb-b368-2bd2bb02b757"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПутьКСети" id="698e9c2f-e83b-4241-ab6d-cf91f183b4d5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.Путь" id="6a2ce0a4-798f-472e-b66b-06567b76d959"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Перемешивать" id="6b1e0235-9b1a-4d31-978c-d7ba3bc2cc85"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыОбщегоПользовательскогоГенератора.Attribute.Тип" id="6b25c558-a845-43ba-aa08-5243fd6753ea"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ПрофилироватьПакеты" id="6b7c85f3-ccf7-4895-8d36-56570d99ae49"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Последовательности" id="6ba62ad9-3a9e-485d-81df-8f9640023a2c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ПутьККаталогу" id="6c881277-f0f9-4ab0-a8d8-62c7290a07c4"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.Проверка" id="6d626c11-a456-4a28-a740-256b8b9033fd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.МестоУсечения" id="6daa082e-c52f-4bb5-918e-1a89ab98834f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ПропуститьСтрок" id="6f26f356-1eca-4459-9b42-e28c257fc827"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ТипДанных" id="7069d680-d9de-491a-830f-7526d580c437"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ПрямоеКодирование" id="71cd36ad-764c-4108-ba5e-d1308c9d1e1f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторыПараметры.Attribute.Идентификатор" id="73899549-5bd3-4ded-b132-4a446eaca9bd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.Режим" id="7451395a-1411-40b3-ad75-b17ba6be7af6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.МетаданныеПогружений" id="74f43fe4-3742-4eaa-aedd-31194fd2fb83"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Идентификатор" id="76fd22ad-dec6-4833-bc52-e7a25043d5ff"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Нормализация" id="76fd9b41-2264-42fc-893a-cf2ae25c9c5c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ЦентрироватьПоПризнакам" id="776093fd-0dd4-44b0-8e29-1a9cf13681b7"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ВыделятьДляКонтроля" id="78bf4acc-e49f-48df-8c5a-0f3f28d91c0c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЗаписыватьГрафик" id="79ac258c-07b5-4b8e-86ca-ed20b27ea251"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ОтбеливаниеZCA" id="7a46e209-3039-48f1-8766-f0bd8335c6cb"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения" id="7a646f18-8505-4f93-9b22-40853c4f0cff"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.КаналаСдвиг" id="7af4e0ae-b3a6-4dc0-8e3c-6b8917995137"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Масштабировать" id="7bbeea2f-c2d6-4469-8fb2-255bc2aeeb80"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Преобразования" id="7c5e97f3-114b-4e27-affb-3b6e1014e7d5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.Генератор" id="7d8a726b-a529-4617-98de-7d18024d67b8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонВращения" id="7df07e90-06ec-4a1d-89dd-4e76e0d166f5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели" id="817c0df3-93c7-4b54-b43d-9882d0dcd477"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.ИмяСписка" id="8188cb75-9712-46a1-ae34-6221d9a038cf"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.ИндексОкончаниеПроверка" id="82f39fcf-3a16-431d-a74a-5634255db09b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.МестоУсечения" id="846092ec-ddf5-426d-ae53-11f370e323f4"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.Проверка" id="8482c7b9-363d-416d-9271-db63374bc728"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИндексОкончание" id="8657d637-b096-4e29-a59b-40bdefc9f205"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ЯркостьНаименьшая" id="86a7cbad-b628-47c1-b8db-4a9473ab98f7"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Интерполяция" id="893ebe76-4b86-497d-a13a-4cdc91dbd8cc"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ЧастотаПроверки" id="895c725c-2ff6-40d7-acdc-8e4c3d4bf26e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard" id="8a761610-6b75-4972-91db-f3ddf3cf67a7"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.НовыйТипДанных" id="8b4262bc-8080-4d65-98cc-a6a76e0ca7de"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПоказателиОценки" id="8e3d8ae9-73ac-4a3c-bf11-deb035b36f3a"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.ЗагружатьПараметры" id="8eabc3ee-0229-4587-aa67-eec5d536d0ba"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ДенормализоватьПрогноз" id="8f0c52af-8e65-40c6-9a3f-63028dee788f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Классификация" id="903a848d-e339-46bc-ae95-c8e085b1c013"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Классов" id="90c660c0-bfc6-4b8c-a283-90c489911a50"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.Режим" id="93166e2e-09d8-4611-88a9-d81a36f905ba"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.Проверка" id="94dc54ce-2cfc-4c23-b6ce-7db6e72e09a0"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоШиринеЦелое" id="94e689a7-26df-4574-9aec-6904a663be59"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ВыделятьДляКонтроля" id="94fe6606-7632-441a-a3a3-7ec60ac9fdbf"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ИмяСлоя" id="967ac349-40b1-4964-9dcb-a369f8adc268"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Оптимизатор" id="96a2301e-1aa1-4407-b60d-532600bb9797"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Модель" id="96b5c499-3fdd-4aa3-ba66-71bb55c84927"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Преобразования" id="977e21f0-ab89-4f06-8cd1-f0354ce205b3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЧастотаОбновленияПакетов" id="97c8ac4a-6f87-4be0-bcbd-cc23e99aa8c3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.СохранятьТолькоВеса" id="9e83fad2-f8ef-48b0-ad8d-984b24672434"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Уклон" id="a13e0869-dca7-41a6-8eb7-02ff67fcb64b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ИмяСлоя" id="a1ea9d70-0afa-4a38-a9c8-a64364a75527"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПутьКСетиЗагрузка" id="a204453d-b522-4673-98b7-40dadf890bd4"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыОбщегоПользовательскогоГенератора.Attribute.Параметр" id="a21de4ed-712d-4a3e-b015-4d2cdce98bdc"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Последовательности" id="a2399fad-3f73-4b55-88a2-655f6a1b1aa8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы.Attribute.Алгоритм" id="a285fa25-749f-4911-9302-fd555c3cb9e0"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ДлинаПоследовательности" id="a287c670-bb71-483f-bb29-61fc1aa9d025"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.ИндексНачало" id="a465bea8-9654-4b06-816f-c5f98ac7eab1"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ТекстПрограммы" id="a5bfb6f0-fcd5-4621-b086-8de461e8d314"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Показатели" id="a7655b54-3fca-412c-b2f6-059e0e952630"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.РезультатОбучения" id="a7c1ea3a-5175-4842-a099-acc7d790cc2e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.КаталогСохранения" id="a840379b-bae4-4743-878d-27522198ca6c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.МинимальноеИзменение" id="a872b256-2129-4f65-8f49-994b3b11cf4c"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Комментарий" id="a9107795-ba73-4d93-8c6f-598c840cf0a2"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.РежимЗаполнения" id="a9a9b72e-3828-423c-a7d3-031910b04f58"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы.Attribute.Прогноз" id="aa4e9e2b-9e72-4fb8-a073-31f653175eb6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.МестоДополнения" id="aab7a837-51a3-45b6-ae47-90f1028882ea"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Переформировать" id="aae181c8-0a19-4762-aa9f-26029b3ce3a1"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.УдалитьКолонку" id="ab1b1e81-337e-4f53-99bb-c4f12f37c52c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.Перемешивать" id="ab1d65a1-9486-4b3b-b24b-ef9060540297"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Форма" id="aba19332-74ab-42e4-8df1-baee923e4db9"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ОГенераторах" id="ac5b6964-61e1-4616-a8e0-3c3f5a402c7d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.Отслеживать" id="ae9ebb8a-5b9e-4308-9d2c-a89d0d34fcc3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.ИндексНачалоПроверка" id="afcceb64-5c0b-4424-8466-b4ffeee1f0a6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ТекстИзКаталога" id="b08b2e7e-8989-4196-bc10-56ba88646b38"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Имя" id="b233d9ce-68fc-4b33-a133-f272cae50871"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.НормализоватьКолонки" id="b287440a-1628-4f5f-bc18-1596b741ed09"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.НеЗагружатьПараметрыКомпиляции" id="b297ed2e-5329-49ae-8cb5-f23bd46e5449"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ИндексОкончаниеПроверка" id="b3ee7761-b6dc-443f-a15f-706b19312c21"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Нормализовать" id="b448b7b2-0ca5-4a4b-bca0-546b790760bb"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ОтображениеВыполнения" id="b8d1ce06-a807-41c5-8a53-6e66a9288198"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ЦелиГенератора" id="b9133280-3881-45f0-9f53-c3d229b92336"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений" id="b9d4bbd3-ad58-4353-a326-ee099787060d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыОбщегоПользовательскогоГенератора.Attribute.Значение" id="baa3714d-0be5-4874-b430-c0ac66c6e50f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ДлинаПоследовательности" id="bbead129-8b8d-44eb-ba5a-fdad1a928662"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоВысотеЦелое" id="be0206f5-fdc4-42af-b89f-c8f04cf0105c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы.Attribute.ИмяСписка" id="c04aee24-bfe2-41e0-a6bc-b07ebd5d9056"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ИмяГенератора" id="c0923765-dcee-4a40-9d50-7cc39e5b62bc"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.НомерКолонки" id="c0f36a33-1c8d-4a7a-ad74-60bc5bc101b7"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ИндексПроверкаНачало" id="c1084600-0b31-4954-9a0b-c232cd6a026d"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.РазмерПакета" id="c286b138-e7f6-410c-a2c1-bb58c561f3ee"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Классов" id="c349d62c-c66f-4f07-b70e-7c09d82fa1e3"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ИндексОкончание" id="c3c60b1e-88cf-4a59-aecf-a7e896a2c50a"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторыПараметры.Attribute.Имя" id="c4293bcd-6357-4707-9598-e7a0a2b61705"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Источник" id="c4b8c04d-a442-4c07-9528-e16a2be1321b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Кодировка" id="c6a1a89e-ef43-416f-986f-5f5bea85daf5"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.Режим" id="c6aa13b2-9333-4c09-adb1-a4799803321d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.НеОбучать" id="c73c31fc-462e-4a34-b38a-5e01fea962ce"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.РазмерПакетаПроверка" id="ca11aeac-6ae1-41cb-b078-382dd5f42139"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ШаговЗаЭпохуПроверка" id="ca35630a-5d68-4ab2-b342-b2714bcbc20e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.КоэффициентМасштабирования" id="cad6dec8-9a0b-4836-ade9-69fcb8907ca5"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Метрика" id="cb406da4-45d0-4b64-9964-dfebf2d97d4c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ПутьКФайлу" id="cf487000-fcd4-4d92-bfd3-22fc995db5cd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.ТипГенератора" id="cf942493-d468-404b-b1d0-e6bc609b9d6e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Комментарий" id="d0a0edb4-ef4e-494f-8dab-3b659992cc23"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Форма" id="d1043b7d-f660-42c5-b14d-9ae56582a2b1"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы" id="d13c0fe2-2d48-4325-9a76-d6e3bdff209c"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.СтартоватьСЭпохи" id="d25d5e2a-855c-444d-b1fb-20fcd59d2f95"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов" id="d2c76f9c-0024-427d-af9e-3a79ba727f86"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.Перемешивать" id="d4624db6-2158-4548-ba63-a8efa96a96bb"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.ИмяГенератора" id="d4f1a19d-dfa9-45f7-ade0-362490c44b38"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.НормализоватьРассчитывать" id="d653b72d-1a5e-43d2-ad02-1e3edfcffaaa"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.РазмерШага" id="d7a542e0-7776-4dbf-98d3-985ff2534926"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы.Attribute.Присваивать" id="d8a3201a-2907-49c0-bf16-7d2ce599e309"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.ОжидатьУлучшения" id="d8d1fbb2-6a31-42e1-8f02-42587e560c78"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.ЧастотаВыборки" id="dc22c41f-0acc-4245-a5f5-f0057ee9427e"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.СпособЗагрузки" id="ddce73c6-fbdb-41f6-8bef-405d2f7419ec"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Алгоритмы" id="ddd4d635-ffdf-493b-8082-4d070cd438a9"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.МинимальноеИзменение" id="de2785dc-8022-4059-8459-4d6c875d2803"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДосрочныеЗавершения.Attribute.ВосстанавливатьЛучшиеВеса" id="dec1795a-ca80-4296-9422-c327ac2713d3"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.РазмерПакета" id="df238056-c090-41b3-b4d3-c00547a11626"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Масштабировать" id="df4ab53f-5827-46e4-af4a-8fa81756b75c"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Нормализовать" id="e08c57ed-c596-41ed-95d5-9f3a87d88ac8"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ИнициализаторГСЧ" id="e1738b81-8868-4c7b-b1e9-632cc57f773f"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоШирине" id="e197cb86-8b82-4f49-b258-3753eb1570d7"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ЯркостьНаибольшая" id="e33fe16f-e237-46b0-a5c6-27a65eac9e37"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПроходовПрогноза" id="e3779d5f-74e6-4aad-b3f8-ea9197760d36"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.ФункцияПотерь" id="e44a657f-8c46-4331-bbcb-b4829cf09806"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.Метрика" id="e709d6eb-1c8a-4111-8b05-75183ad8d7dd"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.Обратить" id="e8b83197-5f8c-4984-b176-cc7a51916732"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.КоличествоЭпох" id="e8e5ef1b-a6d1-4c62-9660-98cbad35d2b4"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.TensorBoard.Attribute.ЧастотаПогружений" id="e981f851-aea7-4b79-9010-2a797bfeb6bb"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.РежимВекторизации" id="eb1b9e31-c240-431f-8529-a6458181cb3b"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.МинимальнаяСкорость" id="eb7863c1-f2e1-483b-ba3c-7477121c6f44"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки" id="ecec250b-17bc-4656-99c4-f00f7a7608ac"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ШаговЗаЭпоху" id="ed0e24b7-bf94-4d03-8196-dac475ddbe61"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Образцы.Attribute.Разделитель" id="eda3042b-495c-4483-bfb6-9c1c1808418d"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.НеЗапрещатьОбучениеСлоев" id="ef833273-555d-415a-aff5-812c7c3d588a"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Идентификатор" id="f073d295-303e-4bb1-b71b-7729b29b0227"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.Палитра" id="f0741d39-cbe4-497e-bd74-9b12461f4bc5"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПользовательскийГенератор" id="f242093e-e9fc-432e-9f20-438e39238e89"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ДиапазонСдвигаПоШиринеВещественное" id="f39d5ec4-78de-46f8-801f-8cfc1725872a"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ПутьККонтрольнойТочке" id="f614e341-da2c-4d90-82ae-838d31cd49eb"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ВременныеПоследовательности.Attribute.НормализоватьЦели" id="f6c7f12c-f34d-4826-b178-b170456a8220"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Значение" id="f79f7891-2203-44a7-bde7-c215972203f6"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПараметрыАлгоритмов.Attribute.Прогноз" id="f7a09681-1bb9-4d8b-a7c2-013ba01a07ee"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.ИндексОкончание" id="f7d38ae9-8088-4c5a-87a8-2099c45e2581"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ЗагрузкаВесов.Attribute.Оптимизатор" id="f9e4d94e-0bfd-4f2d-a4cf-6f86e339feef"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ДанныеИзображений.Attribute.ИзменениеРазмера" id="fa286495-cd29-4721-af44-f31a9f15028d"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.КонтрольныеТочки.Attribute.Период" id="fa48b5d7-50bb-480e-8a48-7a4519ea7624"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое.Attribute.Перезарядка" id="fd5ad569-7ad2-4915-9e01-e403f0ec91f2"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.Цели.Attribute.Разделитель" id="fdcad83a-48c0-4990-be76-3f232590b8ef"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.ПользовательскиеГенераторы.Attribute.РазмерПакета" id="fde751c2-6134-4ad3-8c1a-8a221cfe4443"/>
+			<Metadata name="Document.Нейро_Обучение.TabularSection.УменьшениеСкоростиПриЗастое" id="fe4c38e7-32b4-4eca-bce5-cf61960fe579"/>
+			<Metadata name="Document.Нейро_Обучение.Attribute.ИндексПроверкаОкончание" id="ff4becf1-3a46-4b0a-88b0-04d2c7240b58"/>
+		</Metadata>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаАлгоритмов" id="16bc1167-2a3f-4831-8280-8ad671be0da9" configVersion="896252dba22d68a3cab3df40e04ec825c1e76e8d"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаАлгоритмов.Form" id="16bc1167-2a3f-4831-8280-8ad671be0da9.0" configVersion="04bb1409c3ba4db99552252b85792218898016a9"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаГенератораВременныхРядов" id="cd9f1db8-c610-45ac-9777-12834ddff68c" configVersion="3902e9b6eab14a55eee1bfc166534fbce902aaa8"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаГенератораВременныхРядов.Form" id="cd9f1db8-c610-45ac-9777-12834ddff68c.0" configVersion="6c7c4e5eb2c36dbfaee7553c31aa327b3db6a426"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаГенератораИзображений" id="14ef3a22-1c23-4469-b98a-d70aff98749c" configVersion="9ebae6b3d77af319240344dc54e5ae2698d65d1a"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаГенератораИзображений.Form" id="14ef3a22-1c23-4469-b98a-d70aff98749c.0" configVersion="773db379cdb355f2913a65ad8bafc536b950a026"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаДокумента" id="81b1a017-f45d-4064-98ff-16e131deb88f" configVersion="fc6737d7865ebe547b4f509f75ac43fd5c448de0"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаДокумента.Form" id="81b1a017-f45d-4064-98ff-16e131deb88f.0" configVersion="19d66a5453c81bba546d5b443958b55796f37f49"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаПоказатьJSON" id="8d63ebef-2ebe-475d-b9d8-be6c00b52341" configVersion="fda585904435ca93a49119bba7bfee069d58a5e5"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаПоказатьJSON.Form" id="8d63ebef-2ebe-475d-b9d8-be6c00b52341.0" configVersion="fcd99adbafca179ac691de786b8f4d3a67a3b2da"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаПользовательскогоГенератора" id="0c136043-929c-4113-a158-372cce9f62ac" configVersion="6ddec98fb7bf7bc9ba8ec3735d8bf39b61434e96"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаПользовательскогоГенератора.Form" id="0c136043-929c-4113-a158-372cce9f62ac.0" configVersion="207c2f61c8a5936d23933ffd72bba856894ccc28"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаСписка" id="c3245e5a-29db-4d8e-9e5f-e90585c78a5b" configVersion="189357d8fedac952aefa8e5de2004c85cd6ebaab"/>
+		<Metadata name="Document.Нейро_Обучение.Form.ФормаСписка.Form" id="c3245e5a-29db-4d8e-9e5f-e90585c78a5b.0" configVersion="849472132b21aeeac8bd61d13b4059c0d818528d"/>
+		<Metadata name="Document.Нейро_Обучение.ObjectModule" id="de1716df-742f-4d4f-a349-f9871c959e7a.0" configVersion="04a8382cf244896eb90eeb417faedfef561d7e3d"/>
+		<Metadata name="Enum.Нейро_Padding" id="ff3f05c2-39d6-4d11-81d0-0f7cea99d4d8" configVersion="137ecf57cd7e90f28a12b7cea7e725fac28fde4f">
+			<Metadata name="Enum.Нейро_Padding.EnumValue.causal" id="cb4d3400-9e06-47ab-9760-f1ed9b836131"/>
+			<Metadata name="Enum.Нейро_Padding.EnumValue.same" id="d8eb9c3d-574b-474a-a15d-d2f79ce1372d"/>
+			<Metadata name="Enum.Нейро_Padding.EnumValue.valid" id="db610d12-eb9f-4e74-a810-e258dcf2c9bd"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_PaddingS" id="c68b8c71-5fb9-444b-8d62-91ea0b153fb5" configVersion="8d68630530c2cdebfd9ecda36cba420c31f64623">
+			<Metadata name="Enum.Нейро_PaddingS.EnumValue.valid" id="0b4882c4-d8bf-45c6-8952-c12a6b2d3498"/>
+			<Metadata name="Enum.Нейро_PaddingS.EnumValue.same" id="8b73c330-7aa3-4f8d-a1a5-a016f3beef7f"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Upscaling" id="d1bb6876-74b3-4d7c-80c4-2a8a4fcc585f" configVersion="68e34f7c0b01ff5b8314e0302b1d1fb5132c6b87">
+			<Metadata name="Enum.Нейро_Upscaling.EnumValue.nearest" id="00f58865-a342-4ce3-8366-999b0f5e6ca4"/>
+			<Metadata name="Enum.Нейро_Upscaling.EnumValue.bilinear" id="a9e88c1f-c991-4cec-a806-26105b859267"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_VarianceScaling_Распределение" id="a079db98-11fd-43ad-af45-872122a0ae87" configVersion="32f62f21207a0af9ca3e4dd34ba863f23ad198da">
+			<Metadata name="Enum.Нейро_VarianceScaling_Распределение.EnumValue.uniform" id="0515a514-d95b-47e6-8260-2f5c0887605a"/>
+			<Metadata name="Enum.Нейро_VarianceScaling_Распределение.EnumValue.untruncated_normal" id="40174586-d8c2-44be-bb0e-885b4b607bcf"/>
+			<Metadata name="Enum.Нейро_VarianceScaling_Распределение.EnumValue.truncated_normal" id="4af2c4d3-1a8b-46db-889a-9e87e4bc7584"/>
+			<Metadata name="Enum.Нейро_VarianceScaling_Распределение.EnumValue.normal" id="ca7b2b3d-1874-4f57-aa7c-67e5066e8ae1"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_VarianceScaling_Режим" id="4d3caad0-b2aa-453a-b493-4c1d129e0c1d" configVersion="1fe51c630a5277ddea643a6f23cdff89d3d9d4bb">
+			<Metadata name="Enum.Нейро_VarianceScaling_Режим.EnumValue.fan_out" id="4a263694-d402-4c74-b501-289eea9361e8"/>
+			<Metadata name="Enum.Нейро_VarianceScaling_Режим.EnumValue.fan_avg" id="638b3c51-1fa7-42b8-864d-b1f5967d847c"/>
+			<Metadata name="Enum.Нейро_VarianceScaling_Режим.EnumValue.fan_in" id="ed1f5927-65b2-4f6f-98ee-a15a2ceb1ac9"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ВидыНормализации" id="85a423b3-fda8-48dc-9289-d0fe4baf1441" configVersion="f74a68a889a6d08878a333501aac6e1be3449d6e">
+			<Metadata name="Enum.Нейро_ВидыНормализации.EnumValue.Стандартизация" id="a479a76e-b300-481f-ba88-33730062b3e0"/>
+			<Metadata name="Enum.Нейро_ВидыНормализации.EnumValue.Масштабирование" id="f373104a-6c70-4016-be73-e361323d242f"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ВидыПользовательскогоГенератора" id="b06506fc-e66e-49df-ae18-38011d38f7fe" configVersion="6358d501612e0225f781bb1fe3f59895d189521c">
+			<Metadata name="Enum.Нейро_ВидыПользовательскогоГенератора.EnumValue.Общий" id="48ebbd3f-5d71-4fb0-9785-2f90cc78cc61"/>
+			<Metadata name="Enum.Нейро_ВидыПользовательскогоГенератора.EnumValue.Частный" id="bbb45766-aa1d-4fa0-be44-9eb2a2ead0ee"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ВидыСлоев" id="62b59c5c-8453-4e57-86e3-a727ba241f39" configVersion="af2d2ef3a3a13d520bf0eda63f3d20fbb1facfb9">
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.AdvancedActivations" id="1567d0f9-87cf-438c-a3ae-95e79926e8e4"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Noise" id="34535931-b9f4-4eaa-ba39-31bbe4f30171"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Pooling" id="3d7e0559-ffbf-493a-981d-49c990628f66"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.LayerWrappers" id="46995a15-f4ea-4e17-854d-0e6951f3091b"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Recurrent" id="6bc30228-1a52-482c-83b1-6ce354b9795a"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Core" id="77ea4529-e757-4466-a554-58b54388e45c"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Normalization" id="85dc334a-ae72-4a33-91ad-47f802c88b8f"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Embedding" id="934cc748-f847-44e1-9f4d-e10db8741f89"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Convolutional" id="941ff0df-e466-4cd2-9766-2ba1399af9a6"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.Merge" id="a79d8935-5ce5-4c1e-9021-9231c304b86e"/>
+			<Metadata name="Enum.Нейро_ВидыСлоев.EnumValue.LocallyСonnected" id="bf8290de-1e8c-425f-9cfd-c3c1e6c90f6b"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Генераторы" id="e222e2a0-fe76-42d7-89d0-54fe2be58956" configVersion="8d987da2fa9191e34e3607cc629b1b1eae5ad141">
+			<Metadata name="Enum.Нейро_Генераторы.EnumValue.ВременныхПоследовательностей" id="7021a7c5-c625-45a4-b699-e16f3bf49a1c"/>
+			<Metadata name="Enum.Нейро_Генераторы.EnumValue.Изображений" id="b6d4149f-1d3d-470b-b277-f45dd169ce39"/>
+			<Metadata name="Enum.Нейро_Генераторы.EnumValue.Пользовательский" id="d3d144bf-13a7-4493-85bb-49da7756b150"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Инициализаторы" id="c21bd898-4fae-4bf6-bfca-156fa3c2e8de" configVersion="1454f80f2adee6170a10c8e658863a35778d0a8b">
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.random_uniform" id="0727eb0e-602f-45e6-a30d-0b49f8402074"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.Прочее" id="1d71659c-1244-4037-8fe8-953d3e860834"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.VarianceScaling" id="24cc77b3-2c81-42ce-8ff2-d6f76469004b"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.constant" id="336e4d17-8dc9-4696-9d39-d6fa25c58744"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.lecun_uniform" id="401fadff-1aca-4a7d-a170-59f754aa51bb"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.ones" id="4b4c7e12-467e-4cc2-bd67-e82c3dc74051"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.Identity" id="585eac38-57b2-4dfc-ba0a-5df68ff5f8eb"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.lecun_normal" id="763f962b-492e-43f5-808a-37f634e03b87"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.zeros" id="8b5cc13b-08e2-448b-8396-2bc189860dea"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.he_normal" id="998d2ea9-7399-46c2-9487-16a27fb4f1d2"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.glorot_normal" id="aa990cf9-9a23-443c-a85f-894be60f9baa"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.he_uniform" id="d2279251-9431-45be-ada1-451781d5604d"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.glorot_uniform" id="df7568e8-57de-4b03-bc00-74adecd0742c"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.random_normal" id="e0474645-4de3-4270-b41b-14a420094580"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.truncated_normal" id="f6b99500-d00b-46c1-beb1-da7c38eafcf7"/>
+			<Metadata name="Enum.Нейро_Инициализаторы.EnumValue.orthogonal" id="fc48c44d-b081-410c-90db-58ea47b23610"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Метрики" id="909f58a9-cbd9-43ed-876a-cc50c469637a" configVersion="e9ba1f65406712688e3f1a1e719e6440f578aeee">
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.crossentropy" id="0670eaf1-b806-4441-8c08-60f503cbdb24"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.sparse_categorical_accuracy" id="2187c6e6-0526-448b-8575-06f4cbc225af"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.cosine_proximity" id="431a29b6-ae92-4c93-ab96-2d442f05aec9"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.categorical_accuracy" id="488ba55a-f3a8-4e86-b520-c5be793dddde"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.binary_accuracy" id="699a2b8d-395c-4f45-bcfe-3aef224434ae"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.sparse_top_k_categorical_accuracy" id="6c6b4810-ab25-4842-989a-89533160ffc3"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.Прочее" id="9bc6cc86-e8ea-46c6-931a-4cdcb2efd0b4"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.accuracy" id="ae671177-20f5-4d66-a95b-c31ba9ad8768"/>
+			<Metadata name="Enum.Нейро_Метрики.EnumValue.top_k_categorical_accuracy" id="fe44c31a-57d4-480d-a49c-47417b38f2ee"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Ограничители" id="191e8b90-fa7d-49ba-b72a-9ae3dd236494" configVersion="7346b4d05872edc8b2dd8f2dc0eb9b616b16a41a">
+			<Metadata name="Enum.Нейро_Ограничители.EnumValue.unit_norm" id="03e9c56d-9f3e-4f18-b59e-d5e2bd3904f1"/>
+			<Metadata name="Enum.Нейро_Ограничители.EnumValue.non_neg" id="3c492e88-7f60-4d2c-b398-f5460262297c"/>
+			<Metadata name="Enum.Нейро_Ограничители.EnumValue.min_max_norm" id="47abb8d9-80a8-457b-8899-e47feb14e752"/>
+			<Metadata name="Enum.Нейро_Ограничители.EnumValue.max_norm" id="577961f1-f3ed-45fb-927f-5e9609b71a02"/>
+			<Metadata name="Enum.Нейро_Ограничители.EnumValue.RadialConstraint" id="6ceb2dec-cd2f-41d4-b861-2e87f4d00c46"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Оптимизаторы" id="da98b9f8-d413-44fa-a145-ffb792180e39" configVersion="1de43c9d92e2c3b9878b379eac58f7663ba5bbe1">
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Ftrl" id="0f95b826-f76f-41ec-87ee-439391e51469"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Adadelta" id="137e4b7d-3157-497e-b4b2-e48cf46fac3c"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.RMSprop" id="18e8fb1d-cab2-4c59-9f5c-707ff9bafcb1"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.SGD" id="35a4a088-a3da-49c8-bdae-bc77d7932eb5"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Adamax" id="62fb77e6-c1aa-475d-9641-96cd648033e8"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Adagrad" id="98d7e1e0-4564-4367-8414-b4d4509c5c90"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Adam" id="bd70f956-e580-4ca4-b9da-8d9b1568e33f"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Прочее" id="d031d022-48a1-4a74-93dc-2b365b1309d4"/>
+			<Metadata name="Enum.Нейро_Оптимизаторы.EnumValue.Nadam" id="f01204c7-bf5e-4c50-ad04-dde07bb1437d"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ПараметрыГенератора" id="fe14b7f8-54e8-4180-8bf6-6c240fe7b4d8" configVersion="36a87286ef296393ae1ccfe178786a5ad23b59ae">
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.Перемешивать" id="12f9695a-96ec-40b1-8db6-602f69d6e88d"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.КоличествоЦелей" id="19a0c5df-438b-4117-ba65-edf858e35f38"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.РазмерПакета" id="4dd66dc0-18de-452c-ba40-729fc1854400"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.Цели" id="51f41497-a81d-4835-9cab-646d24c4e873"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.КоличествоОбразцов" id="5a6c9416-a71e-402d-b53a-9c92a1a0f805"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.КонечныйИндекс" id="7ee2a19a-84d5-4e7a-8d5e-5baf7f4d2b4e"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.Образцы" id="983a7c56-85ea-4902-9339-e7e68bc96a19"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.НачальныйИндекс" id="bf0ac31d-2418-41e3-832f-df61867bb824"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.ВидДанных" id="e405745e-ac1f-4929-ba5f-179aaabcb810"/>
+			<Metadata name="Enum.Нейро_ПараметрыГенератора.EnumValue.Дополнительный" id="fedc10d3-c049-4402-af9b-01ace737a666"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ПорядокКаналов" id="a04255dc-4aae-4cd2-b466-7b6f87a9f6bf" configVersion="ddbac69644649167ae4839c77005a91f3728493f">
+			<Metadata name="Enum.Нейро_ПорядокКаналов.EnumValue.channels_first" id="18d97b3f-0eff-4c55-9d8f-bb5f8e37b1e7"/>
+			<Metadata name="Enum.Нейро_ПорядокКаналов.EnumValue.channels_last" id="491cd6d2-2331-4726-a6cc-014529a48ac3"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Регуляризаторы" id="9ac4e2f5-e0d3-4860-8158-6d9e127d6db7" configVersion="1f5c07c69a4ed82aef324493c2d014a9e07cf9fa">
+			<Metadata name="Enum.Нейро_Регуляризаторы.EnumValue.l1" id="1b4faf8c-af4b-4a31-8161-d2df553fca2b"/>
+			<Metadata name="Enum.Нейро_Регуляризаторы.EnumValue.l2" id="2f381e9e-0582-4161-b717-d4af653383fe"/>
+			<Metadata name="Enum.Нейро_Регуляризаторы.EnumValue.l1_l2" id="81c83ce0-77b3-4c44-b93a-179ba3a16952"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_РежимСамоконтроля" id="975a7d29-57e9-43e3-944b-60a803cd5078" configVersion="0e62611315dc1187f879f55edfc4f1e0627ec82d">
+			<Metadata name="Enum.Нейро_РежимСамоконтроля.EnumValue.min" id="42f2b2a9-e690-4d27-a762-2d02e0a0888f"/>
+			<Metadata name="Enum.Нейро_РежимСамоконтроля.EnumValue.auto" id="b1f73f4b-a304-41fb-85b1-a68eceba0a71"/>
+			<Metadata name="Enum.Нейро_РежимСамоконтроля.EnumValue.max" id="fb1452d3-3c18-44fc-a3f8-75dd2ea45413"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_СпособВекторизацииТекста" id="53f0e0b1-7a52-41cb-b424-5af80e989746" configVersion="c49560d45f6f6dbc60eab9d8569d0b51c8fea060">
+			<Metadata name="Enum.Нейро_СпособВекторизацииТекста.EnumValue.ПрямоеКодирование" id="41220627-2d3c-460e-9e4b-462e3dbe6f8a"/>
+			<Metadata name="Enum.Нейро_СпособВекторизацииТекста.EnumValue.ПлотныеВекторы" id="5f61bc8d-3d10-4e1d-9f29-040c37590e4c"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_СпособДополнения" id="b4bc2a34-c0b7-4331-9301-43225ae2b346" configVersion="d27bc005c918ec5cb437172ac0284984245f8967">
+			<Metadata name="Enum.Нейро_СпособДополнения.EnumValue.Перед" id="6f5fa234-19ed-448c-887a-7f18970a0d2b"/>
+			<Metadata name="Enum.Нейро_СпособДополнения.EnumValue.После" id="8a7ef9ae-cc59-403e-ae2a-0cc8bebac731"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_СпособыЗагрузкиОбразцов" id="16519e39-2d3a-436d-a2ed-4c0060f02f9d" configVersion="ced4e186e7150977fca330153a2df7b75dc55ff9">
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиОбразцов.EnumValue.ТекстоваяТаблица" id="408efc1f-8689-435c-b7b1-c5baca6a8652"/>
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиОбразцов.EnumValue.МассивNumpy" id="48271394-2be9-4c09-ae18-6807e20956bf"/>
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиОбразцов.EnumValue.ОбычныйТекст" id="fcb37d85-d6ff-455f-94c9-248364368291"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_СпособыЗагрузкиЦелей" id="5a03d452-5f62-489b-9d91-a64b39823cbc" configVersion="bcf5473fa2025322feb8f26226a827f548d282aa">
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиЦелей.EnumValue.КолонкаИзОбразцов" id="096d60f6-9ee2-4023-adb3-0b1c12ec0e0c"/>
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиЦелей.EnumValue.ОбычныйТекст" id="436494fb-ea90-47bd-a934-52625bd8d1b0"/>
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиЦелей.EnumValue.ТекстоваяТаблица" id="50c2f833-5590-4788-b9fc-b14600f21174"/>
+			<Metadata name="Enum.Нейро_СпособыЗагрузкиЦелей.EnumValue.МассивNumpy" id="d49c2055-360c-4140-83a6-d6f5d794343f"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_СтандартныеМетрики" id="cea77260-f71e-4db5-9c83-acb19603e6b7" configVersion="5d26581633c02573f48baf69f5882f0154e3bfc6">
+			<Metadata name="Enum.Нейро_СтандартныеМетрики.EnumValue.loss" id="97abae7e-a255-4933-a164-a03f925e8168"/>
+			<Metadata name="Enum.Нейро_СтандартныеМетрики.EnumValue.acc" id="9bc018a9-964f-4b2c-9051-3888182cb112"/>
+			<Metadata name="Enum.Нейро_СтандартныеМетрики.EnumValue.ce" id="bdf97e61-f48c-410d-bf92-91aff1b7717c"/>
+			<Metadata name="Enum.Нейро_СтандартныеМетрики.EnumValue.accuracy" id="e37226b7-5627-4a18-bd80-d0d655bb2aec"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ТекстВКатегорииРежим" id="77a1f0d3-819c-46a5-a47d-b3eebd6e4277" configVersion="f4630c1f48a783954e16e5c9b537d82108850f87">
+			<Metadata name="Enum.Нейро_ТекстВКатегорииРежим.EnumValue.count" id="45b31b71-7dbe-4d16-ac20-eda6951ab8ba"/>
+			<Metadata name="Enum.Нейро_ТекстВКатегорииРежим.EnumValue.freq" id="868f2b2e-307f-4035-aaa2-6659c10d379d"/>
+			<Metadata name="Enum.Нейро_ТекстВКатегорииРежим.EnumValue.binary" id="9b0d174c-f3db-434f-b707-2f2ca299950e"/>
+			<Metadata name="Enum.Нейро_ТекстВКатегорииРежим.EnumValue.tfidf" id="bf00d6be-c9ba-44e7-a6ad-facd96659343"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_Типы" id="d1ca5cf1-0327-4516-9756-f72cdfa46b38" configVersion="51184669f2d01385309a916fab63be3a782a4bf4">
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Функция" id="159aa2b2-4871-48f9-8d5c-bbc27ea3c5f1"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.ФункцияАктивации" id="163a8059-02dc-40f4-88b4-9459c631b222"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Вещественное" id="172a819b-37ee-4f23-9dad-71d18a7cf40a"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Строка" id="1d1ed139-97d0-4996-855b-e11cc949d16c"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.VarianceScaling_Режим" id="23435190-9b54-4bfc-ac30-8cf07f8fb0ff"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Ограничитель" id="26af8591-1266-4fdb-96d7-7bf2935364dc"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Заполнение" id="2e13152b-3181-45ea-b9ca-75c972040c6a"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Регуляризатор" id="37afea87-7ef7-40df-ac03-5d4d00aab101"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Массив" id="4e152272-961e-49a2-8e68-944927a238c4"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Инициализатор" id="58804fd1-31cb-49c6-890b-e01063ebbb80"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Метрика" id="688f958b-3bd1-4a4d-ada3-492a32196dd1"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.ТипNumPy" id="6dcf2e4f-52b1-4b5b-8ce1-3911ada4159d"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.ФункцияПотерь" id="7f7befd8-f6d1-4e95-a31f-b42e00d2f5dc"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.ПорядокКаналов" id="8630482c-bd23-464b-b05a-a5c62634c33c"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Тензор" id="ac6cbebc-10c5-46e2-b79a-1dcf44282886"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Неопределено" id="be8d8436-1cf5-4b38-8400-08b7aa68a65e"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.ЗаполнениеСокр" id="cc14ccf3-4404-4758-80a3-afe9f925a7a8"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Булево" id="d5997b63-a167-49cb-ba2e-d36dbb8c709f"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Слой" id="e0844e4d-3149-4048-979c-ae98d5f7270e"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Апскейлинг" id="e34f02bc-13c0-43c8-b3c4-b141b6215735"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Целое" id="ecb63a74-015c-4a05-a1fc-24b22cfff611"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.VarianceScaling_Распределение" id="f0f22bd6-f6d1-44ec-a2c4-388472975cbe"/>
+			<Metadata name="Enum.Нейро_Типы.EnumValue.Оптимизатор" id="f5126195-950f-420b-b732-89a624a9d7ea"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ТипыNumPy" id="54370133-88af-4df0-94a3-0937b7209e4a" configVersion="b6b5e63a3c84a927e5efc5c94b659f04edd1958b">
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.float16" id="14a358d4-5047-4ad2-84d8-b52b78f64edf"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.complex128" id="1d275b8e-3e25-41d9-a639-00e7b70870e2"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.int32" id="29f07b25-cd42-4d1f-8c60-ddf35e0a845d"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.int16" id="3164b905-4166-4772-a56f-9e79857c1465"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.bool" id="5bffeb2d-13a4-49f8-b4ad-440403c9775a"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.float32" id="75098549-49a4-41df-b746-09a47ccb0c97"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.uint64" id="84c2971c-d97c-48f3-a4fa-aa0d53eb0f76"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.uint16" id="a4ebad0b-9961-4393-81da-ec5001482739"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.uint8" id="af28fa7e-9bae-42aa-889b-cc5a5fc591db"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.complex64" id="bfcb03d4-fdc1-4f48-a72d-e90d60ddbc51"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.int64" id="ca223339-4a3a-4ff7-86ff-d5458fa77b17"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.int8" id="d543aa61-4f30-47e8-b2c6-752e42e6c12a"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.str" id="d77a52eb-4d22-469c-a573-9c7a690e5730"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.string_" id="d85cadb6-f962-41a7-ae0e-0d7dae61fa8d"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.object" id="daeed777-460f-471b-b4dd-8ecfe5050617"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.uint32" id="ee5352ba-a713-4bec-ab6c-1e5ce7d81214"/>
+			<Metadata name="Enum.Нейро_ТипыNumPy.EnumValue.float64" id="fb8ef985-06a0-4977-a115-a592a39ace8b"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ТипыСлоев" id="39d93838-0437-4768-b81b-6d392c46b291" configVersion="acd299a5c3de1dca711f44fafbb63749e40fbbdb">
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.LocallyConnected2D" id="021d540b-462d-4502-b53e-5c8db57d095a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Conv1D" id="0222eb6c-2d82-4a4c-81a6-2b486f4dd8ca"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.UpSampling2D" id="074c07c5-a68c-4c51-937b-8b63fedaae61"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.UpSampling1D" id="0e1b78cd-c56d-4ad4-88a4-7ca1c0f010fa"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GRUCell" id="1225a9a1-dd07-490a-9a9e-52d0920cef66"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GRU" id="12ae5544-8e1f-4429-ae11-a3660e65c4cb"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Average" id="16ab579e-1ca4-43e8-8613-435c5cb26915"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SpatialDropout1D" id="18f108f2-1a92-43e3-88c5-d107dc6404e8"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.InputLayer" id="197449c7-47f2-4c35-bb34-22eee0455856"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.MaxPooling2D" id="1a02bf4b-9186-4f0b-84cd-34621f39efbb"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Maximum" id="1d25724f-e024-4593-8b18-ef7fdff9dcee"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.TimeDistributed" id="204e1c71-6ec2-46f3-a9de-40f78a7bc65b"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ZeroPadding1D" id="24138054-587b-4170-a705-d1b996a5eed6"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Reshape" id="29801456-9741-4a37-8b7c-15bec3eb60cc"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.BatchNormalization" id="2d2c515a-e50e-447a-b596-0db2274981d3"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SpatialDropout3D" id="2d6ed633-b372-449e-a743-c60c79b1d078"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Flatten" id="2e8182a3-1114-4b93-9993-451c0c3e6d1c"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Cropping3D" id="371f7db9-5a86-4ed2-9754-95ba582a7a3f"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Softmax" id="3d89a763-a230-4277-8cd9-cc01859855ed"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.AveragePooling2D" id="3e1a7675-69f2-4627-be82-f9e4b014d896"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ZeroPadding3D" id="41969293-3272-41b5-8585-8b8846572711"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SeparableConv2D" id="449394f6-a9a6-40cc-918d-90dc3d86335a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GaussianDropout" id="46113676-f7be-427b-a198-2f60bb90112a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SimpleRNN" id="494a0b83-9ae8-4a04-95f6-70bcb5a7c889"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ConvLSTM2D" id="4959ee6b-88a3-4d4c-ba69-ba10121a4dd8"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalMaxPooling2D" id="6412c2ac-c213-4a2f-b231-b51ea4ea1a68"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Add" id="675c9f4b-c364-4a02-9331-8caab96f4d72"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalAveragePooling2D" id="6ae86b4f-57c7-4f45-bef1-d95814317d57"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Cropping2D" id="6e8ab38e-3d83-4d09-9a90-16f1ed7d41b1"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Conv2D" id="71b3be13-897b-4c41-a629-35a8cf396b63"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Multiply" id="749e36d6-6383-4fba-a3e8-8d7c966dead1"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.LSTMCell" id="76aad5af-5feb-4333-96b8-4fde8eaa8614"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Dense" id="771bc688-e1db-45fb-8b65-00e124ae0f17"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Subtract" id="778b8f56-b03f-486c-9e77-6d399aa7722f"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SimpleRNNCell" id="7af26104-4310-4446-a160-51f628d97d0e"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.AlphaDropout" id="807b2353-b83b-473a-a589-08ac516dd25b"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalMaxPooling3D" id="83595b44-0f49-4fa6-bdc4-2a492703ceb2"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Conv3DTranspose" id="8ace5ff4-4571-42ec-9c94-8487c56a65e3"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ActivityRegularization" id="8c97d204-d85c-4e6d-b50d-9c722a805ce2"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalAveragePooling1D" id="900367a5-360f-4e5d-931c-e5e07d615bb3"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GaussianNoise" id="934ec7db-bfa8-4284-b83b-e4eb7e96df4c"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Permute" id="95909cf8-0057-4d1d-8ec8-02f12ada2e76"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.LSTM" id="9db32c84-3aea-4ee3-b389-bfff8a1b69a8"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Dot" id="a108a19c-0b8b-404e-bccd-95c9aaac529a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.MaxPooling1D" id="a9aa8e53-3c00-4731-a0d2-0635072de4cf"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.LocallyConnected1D" id="a9e9f588-4727-45ce-92f4-e69e7c198197"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.AveragePooling1D" id="aa7af7d6-c537-4eca-9b35-30a5f69777ef"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.LeakyReLU" id="b065f1ee-1e9b-44fa-a752-5ad75afc41be"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SeparableConv1D" id="b771b643-d139-4f7c-a34b-69ca2b04cdd7"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Concatenate" id="b80a90e9-c0a5-4621-8399-d74e0fb99f0b"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Bidirectional" id="ba501413-428f-4a3c-902d-2c71915e440e"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Conv3D" id="bc441b55-21bd-4453-b61b-fc011120d673"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.CuDNNLSTM" id="bda6f5ef-f2e2-44c9-ba67-86b06d63a78e"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.AveragePooling3D" id="bf0381af-cea2-4e0f-a3a0-4410f6d374bd"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ZeroPadding2D" id="c01c9dd9-2c4b-4ce2-b130-37a60acc9afb"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.DepthwiseConv2D" id="c2e4e16b-6f3a-419a-a776-3765d1f636bd"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Embedding" id="c4a7841b-8027-4c65-a8e8-53f2a07b6c6f"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.SpatialDropout2D" id="c582dd61-133e-422c-9b90-dcc1a746cf2c"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Masking" id="cb119036-186b-4171-a283-53b27ad2537c"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.RepeatVector" id="d02c7090-d585-4fc0-bab5-19dd226580f7"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ThresholdedReLU" id="d6062b2b-7877-4a27-a013-3c59087fb642"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Dropout" id="da47e0b6-e738-4def-b7f6-c75c13e2aca7"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ConvLSTM2DCell" id="db8bc883-08ce-498c-98d1-77ae1e47cea0"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ELU" id="dc4aed02-00b6-4008-91c0-e5c46955583e"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.CuDNNGRU" id="e8c476ed-9c19-4bd8-a6be-d46199bcd827"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalAveragePooling3D" id="e9d71bc9-e89a-4b41-ad43-bba45afda9f4"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.MaxPooling3D" id="e9e62e63-aea8-4dd9-bf2f-92812da23d69"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Activation" id="ea2effa9-47c2-48ce-bc5a-ab59834d9834"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Cropping1D" id="ebb85d7c-7dea-48d3-8e6d-d411678a71bb"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.ReLU" id="f0181c16-d2a3-46d9-8eda-a0e7769c823a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Minimum" id="f2044d5e-b3e3-4050-99b1-39cd15499068"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.Conv2DTranspose" id="f5a4cbc7-a051-4bab-ab7e-97d1470a232a"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.PReLU" id="f820ac0b-4155-48bc-8706-b92b966983ac"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.UpSampling3D" id="f8460814-c895-4e93-884a-9b479553dc16"/>
+			<Metadata name="Enum.Нейро_ТипыСлоев.EnumValue.GlobalMaxPooling1D" id="feca11e5-2df3-41de-8014-6b378ebc6058"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ТипыСписков" id="c0f8495b-8384-40cb-9aa2-95519c25b5ec" configVersion="0340d328936d4097fcb732a3c287e69e35189deb">
+			<Metadata name="Enum.Нейро_ТипыСписков.EnumValue.Словарь" id="4ceb6223-b5bd-4370-b0a4-f2304f180555"/>
+			<Metadata name="Enum.Нейро_ТипыСписков.EnumValue.Список" id="ae7a6680-fac4-4800-ac9b-d61b84839f40"/>
+			<Metadata name="Enum.Нейро_ТипыСписков.EnumValue.Кортеж" id="c1b6d5d4-c797-4ae8-851e-624840033db9"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ФункцииАктивации" id="5dbe274d-7b29-4520-a3fe-486654650875" configVersion="c814005afec070374ca96be0192e04e950761ba0">
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.tanh" id="013ff356-a0da-4920-a11d-6b0a20e8acac"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.softsign" id="0a24ee71-311d-4027-ae5b-ad25ef4dbb02"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.softmax" id="2b61dec7-e8cc-4aad-bc7d-63b5bb2afbce"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.relu" id="31902460-831f-4b23-ba3e-36dcf8238a13"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.sigmoid" id="31dc2a02-3d04-43ba-8f66-321e3565b37d"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.elu" id="45062b90-72f7-4a5d-a785-02897b2f40cc"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.exponential" id="502c563b-3dc1-4426-9546-095e8c7a0642"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.linear" id="6087c19d-3459-4d09-9dce-a97e47d69cfb"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.softplus" id="6c8e4421-e459-4eb0-bb9e-151277986ff4"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.Прочее" id="73160af9-3e68-45a2-8931-3a839970777a"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.selu" id="7940b504-b69e-4c6a-8fd3-97f2103b49b4"/>
+			<Metadata name="Enum.Нейро_ФункцииАктивации.EnumValue.hard_sigmoid" id="9e21c7e2-db34-4a4e-a70a-4993d09abc4d"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ФункцииПотерь" id="ab44ca97-4acd-47f3-be54-c2888df53a86" configVersion="e515a342a110116ed5935ea7d869ef2f5fc72934">
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.logcosh" id="04995a69-d2e0-43d1-9f35-52952bf1d977"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.mean_absolute_percentage_error" id="21ff1659-8f8b-4206-927b-a90b2d834de5"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.mean_squared_error" id="40d8f4eb-6292-4a50-99ff-01fd6e72e5d9"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.cosine_proximity" id="7a626cc5-b996-4c02-b7ee-bc319c543e66"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.squared_hinge" id="9929dd73-e723-4489-b5e9-a6b8436a2fb8"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.mean_squared_logarithmic_error" id="9b2f20eb-3a44-462e-b4b6-2ac5b9e23051"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.binary_crossentropy" id="9ce64315-3281-4075-9dbc-3201c748a019"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.hinge" id="a30aebfa-dfaa-42c6-9c03-1afabce84923"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.Прочее" id="bded9f53-b295-4a90-82e2-8f6b90698086"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.categorical_crossentropy" id="c022da72-2275-4a06-8735-ef20ad557d40"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.mean_absolute_error" id="c146a39d-b3e1-4d6a-8ba0-77a0b8e315c8"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.poisson" id="c5d7933d-fe26-4280-b82b-9a9ab8e91f23"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.Huber" id="e4ec2abe-7bef-400e-9fbe-36199d387c7f"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.categorical_hinge" id="e8a37fc5-430c-461f-9d20-de18b6f5b22f"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.kullback_leibler_divergence" id="e90f56a7-57d3-43fd-8c77-f0329537416b"/>
+			<Metadata name="Enum.Нейро_ФункцииПотерь.EnumValue.sparse_categorical_crossentropy" id="fb499999-07c2-4426-9e7d-56f55a13d479"/>
+		</Metadata>
+		<Metadata name="Enum.Нейро_ЧастотаОбновленияTensorBoard" id="8913455f-73b4-49ed-bfd0-b7a76fd6c868" configVersion="389484ed74d2f5a64fe3d32cd43748be09a13445">
+			<Metadata name="Enum.Нейро_ЧастотаОбновленияTensorBoard.EnumValue.КаждыйПакет" id="6fef0f03-fb95-4822-ba03-a1d574d0e3e0"/>
+			<Metadata name="Enum.Нейро_ЧастотаОбновленияTensorBoard.EnumValue.ЧислоПакетов" id="b03f4357-b492-4a44-a7da-31b460282111"/>
+			<Metadata name="Enum.Нейро_ЧастотаОбновленияTensorBoard.EnumValue.КаждуюЭпоху" id="f900a3df-b0b0-4b71-abc7-4b6482cba00a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Нейро_Идентификаторы" id="ac8f8d85-a7c8-4bd4-82cc-755fef606e66" configVersion="bbd375ddfab43ee35f1244862def407f3d0d9533">
+			<Metadata name="InformationRegister.Нейро_Идентификаторы.Dimension.Имя" id="0d96590d-61b5-4e7b-9d2d-b87bc6b93f26"/>
+			<Metadata name="InformationRegister.Нейро_Идентификаторы.Dimension.Значение" id="74f9cfaf-e754-46b0-86f9-273ed6df13f8"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Нейро_Настройки" id="54975551-4d4e-4e19-868a-b487d4782819" configVersion="55d08e3dd75c16d622c9b7f672c4107cc98801a2">
+			<Metadata name="InformationRegister.Нейро_Настройки.Dimension.Имя" id="5123d6c1-875a-4ff9-92ee-61bccdd92ed8"/>
+			<Metadata name="InformationRegister.Нейро_Настройки.Attribute.Описание" id="c609c8f4-8b10-4602-ac00-640995f0ec15"/>
+			<Metadata name="InformationRegister.Нейро_Настройки.Dimension.Значение" id="f79fa428-75b5-4609-88f2-0de69400dd8d"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e1d00800-b94a-4498-89d5-26c4583bbc86" configVersion="66db09f9b6680123b872b1663cf0ad43355d895d"/>
+		<Metadata name="Role.Нейро_ОсновнаяРоль" id="773cff53-b20d-416f-be44-77e918b0a1d4" configVersion="b60dfbec4eed2027e3d368a901b2a01b2e425fdd"/>
+		<Metadata name="Subsystem.НейроКонструктор" id="2b1b9d40-55bd-4327-a78a-71c77cf5074b" configVersion="19d08ff71a1706bae62057d715ab82b2d059a837"/>
+		<Metadata name="Subsystem.НейроКонструктор.CommandInterface" id="2b1b9d40-55bd-4327-a78a-71c77cf5074b.1" configVersion="eda3927f4de4ba103347df2e9aba38e860d4c2bc"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

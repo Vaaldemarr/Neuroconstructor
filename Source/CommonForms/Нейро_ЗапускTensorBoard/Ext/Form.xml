@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗапуститьСервер" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗапуститьСервер</CommandName>
+				<ExtendedTooltip name="ФормаЗапуститьСерверРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ПутьККаталогу" id="1">
+			<DataPath>ПутьККаталогу</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
+			<ContextMenu name="ПутьККаталогуКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПутьККаталогуРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="StartChoice">ПутьККаталогуНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="Группа1" id="6">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<InputField name="ЛокальныйАдрес" id="8">
+					<DataPath>ЛокальныйАдрес</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка адреса для браузера. Например: localhost или 127.0.0.1 Если не задано, адрес можно посмотреть в коммандной строке после запуска TensorBoard</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="ЛокальныйАдресКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ЛокальныйАдресРасширеннаяПодсказка" id="10"/>
+				</InputField>
+				<InputField name="Порт" id="11">
+					<DataPath>Порт</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порт для связи. По-умолчанию 6006</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ContextMenu name="ПортКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="13"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПутьККаталогу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к каталогу</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПутьККаталогу</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ЛокальныйАдрес" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Локальный адрес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ЛокальныйАдрес</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Порт" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>Порт</Field>
+			</Save>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ЛокальныйАдрес</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ЛокальныйАдрес</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string"/>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>???</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ЗапуститьСервер" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить сервер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить сервер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьСервер</Action>
+		</Command>
+	</Commands>
+</Form>
